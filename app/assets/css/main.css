@@ -2,6 +2,10 @@ body, html {
   min-height: 100vh;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -10,9 +14,9 @@ body, html {
 
 .container {
   width: 1440px;
-  box-sizing: border-box;
   background-color: blue;
   padding: 96px 80px;
+  display: flex;
 }
 
 @media (max-width: 1339px) {

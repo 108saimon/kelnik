@@ -76,11 +76,22 @@ onMounted(() => {
         Загрузить ещё
       </button>
     </div>
-    <div class="apartments__filter"></div>
+    <div class="apartments__filter">
+      Фильтры
+    </div>
   </div>
 </template>
 <style scoped>
 .title {
   font-size: 24px;
+}
+.apartments__list {
+  width: calc(100% - 318px);
+}
+.apartments__filter {
+  width: 318px;
+  background-image: linear-gradient(to right, #AEE4B2, #95D0A1);
+  padding: 20px;
+  border-radius: 20px;
 }
 </style>
