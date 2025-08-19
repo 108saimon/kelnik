@@ -1,6 +1,6 @@
 <script setup>
 import apartmentsData from '../mock/apartments.json';
-import { useApartmentsStore } from '../stores/useApartmentsStore';
+import { useApartmentsStore } from '../stores/apartments';
 
 const store = useApartmentsStore();
 
@@ -12,6 +12,7 @@ function fakeFetch(data) {
   });
 }
 
+// TODO - количество комнат
 // получаем данные для фильтра
 function initApartmentsConfig(data) {
   const prices = data.map(item => item.price);
@@ -29,7 +30,21 @@ function initApartmentsConfig(data) {
 }
 
 function processApartmentsData(data) {
-  return data.filter(item => item.floor < 10);
+  return data.filter(item =>
+    item.price >= store.minPriceFilter
+    && item.price <= store.maxPriceFilter
+    && item.areaOfTheApartment >= store.minAreaFilter
+    && item.areaOfTheApartment <= store.maxAreaFilter
+  ).slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);
+}
+
+function loadMore() {
+  store.page++
+  console.log(store.page)
+  const newData = processApartmentsData(store.apartments);
+  console.log(newData)
+  store.currentApartments.push(...newData);
+  console.log('wtf', store.currentApartments);
 }
 
 onMounted(() => {
@@ -38,7 +53,8 @@ onMounted(() => {
     .then(response => response.json())
     .then(json => {
       initApartmentsConfig(json);
-      store.setApartments(processApartmentsData(json));
+      store.setApartments(json);
+      store.setCurrentApartments(processApartmentsData(store.apartments));
       console.log(store.apartments);
     });
 })
@@ -47,17 +63,23 @@ onMounted(() => {
 <template>
   <div class="container">
     <div class="apartments__list">
-      <h1>Квартиры</h1>
+      <h1 class="title">Квартиры</h1>
       <div v-show="store.apartments.length > 0">
         <ul>
-          <li v-for="(apartment, index) in store.apartments" :key="`apartment-index-${index}`">
+          <li v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}`">
             {{ 'номер квартиры ' + apartment.apartmentNumber + ' цена квартиры ' + apartment.price + ' площадь квартиры ' + apartment.areaOfTheApartment }}
           </li>
         </ul>
       </div>
+      <button @click="loadMore">
+        Загрузить ещё
+      </button>
     </div>
     <div class="apartments__filter"></div>
   </div>
 </template>
 <style scoped>
+.title {
+  font-size: 24px;
+}
 </style>
