@@ -2,7 +2,7 @@
 import apartmentsData from '../mock/apartments.json';
 import { useApartmentsStore } from '../stores/useApartmentsStore';
 
-const store = useApartmentsStore()
+const store = useApartmentsStore();
 
 function fakeFetch(data) {
   return new Promise(resolve => {
@@ -12,8 +12,24 @@ function fakeFetch(data) {
   });
 }
 
+// получаем данные для фильтра
+function initApartmentsConfig(data) {
+  const prices = data.map(item => item.price);
+  store.maxPrice = Math.max(...prices);
+  store.minPrice = Math.min(...prices);
+  const areas = data.map(item => item.areaOfTheApartment);
+  store.maxArea = Math.max(...areas);
+  store.minArea = Math.min(...areas);
+
+  // если не сохранено значений фильтров устанавливаем их в значения по умолчанию
+  store.maxPriceFilter = store.maxPrice;
+  store.minPriceFilter = store.minPrice;
+  store.maxAreaFilter = store.maxArea;
+  store.minAreaFilter = store.minArea;
+}
+
 function processApartmentsData(data) {
-  return data.filter(item => item.floor < 10)
+  return data.filter(item => item.floor < 10);
 }
 
 onMounted(() => {
@@ -21,7 +37,7 @@ onMounted(() => {
   fakeFetch(apartmentsData)
     .then(response => response.json())
     .then(json => {
-      // const filtered = json.filter(item => item.floor > 3);
+      initApartmentsConfig(json);
       store.setApartments(processApartmentsData(json));
       console.log(store.apartments);
     });

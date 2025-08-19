@@ -17,6 +17,8 @@ interface UseApartmentsStore {
   minPrice: number,
   minPriceFilter:number,
   minArea: number,
+  minAreaFilter: number,
+  maxArea: number,
   maxAreaFilter: number,
   numberOfRoomsFilter: number[]
 }
@@ -29,6 +31,8 @@ export const useApartmentsStore = defineStore('apartments', {
     minPrice: 0,
     minPriceFilter:0,
     minArea: 0,
+    minAreaFilter: 0,
+    maxArea: 0,
     maxAreaFilter: 0,
     numberOfRoomsFilter: []
   }),
