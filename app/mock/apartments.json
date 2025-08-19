@@ -1,0 +1,3962 @@
+[
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 1,
+    "apartmentNumber": 1,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 2,
+    "apartmentNumber": 2,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 3,
+    "apartmentNumber": 3,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 4,
+    "apartmentNumber": 4,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 1,
+    "apartmentNumber": 5,
+    "areaOfTheApartment": 30,
+    "price": 2375000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 2,
+    "apartmentNumber": 6,
+    "areaOfTheApartment": 45,
+    "price": 3800000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 3,
+    "apartmentNumber": 7,
+    "areaOfTheApartment": 65,
+    "price": 5700000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 4,
+    "apartmentNumber": 8,
+    "areaOfTheApartment": 85,
+    "price": 7600000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 1,
+    "apartmentNumber": 9,
+    "areaOfTheApartment": 30,
+    "price": 2500000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 2,
+    "apartmentNumber": 10,
+    "areaOfTheApartment": 45,
+    "price": 4000000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 3,
+    "apartmentNumber": 11,
+    "areaOfTheApartment": 65,
+    "price": 6000000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 4,
+    "apartmentNumber": 12,
+    "areaOfTheApartment": 85,
+    "price": 8000000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 1,
+    "apartmentNumber": 13,
+    "areaOfTheApartment": 30,
+    "price": 2500000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 2,
+    "apartmentNumber": 14,
+    "areaOfTheApartment": 45,
+    "price": 4000000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 3,
+    "apartmentNumber": 15,
+    "areaOfTheApartment": 65,
+    "price": 6000000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 4,
+    "apartmentNumber": 16,
+    "areaOfTheApartment": 85,
+    "price": 8000000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 1,
+    "apartmentNumber": 17,
+    "areaOfTheApartment": 30,
+    "price": 2500000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 2,
+    "apartmentNumber": 18,
+    "areaOfTheApartment": 45,
+    "price": 4000000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 3,
+    "apartmentNumber": 19,
+    "areaOfTheApartment": 65,
+    "price": 6000000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 4,
+    "apartmentNumber": 20,
+    "areaOfTheApartment": 85,
+    "price": 8000000,
+    "maxFloor": 5
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 1,
+    "apartmentNumber": 1,
+    "areaOfTheApartment": 30,
+    "price": 2362500,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 2,
+    "apartmentNumber": 2,
+    "areaOfTheApartment": 45,
+    "price": 3780000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 3,
+    "apartmentNumber": 3,
+    "areaOfTheApartment": 65,
+    "price": 5670000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 4,
+    "apartmentNumber": 4,
+    "areaOfTheApartment": 85,
+    "price": 7560000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 1,
+    "apartmentNumber": 5,
+    "areaOfTheApartment": 30,
+    "price": 2493750,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 2,
+    "apartmentNumber": 6,
+    "areaOfTheApartment": 45,
+    "price": 3990000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 3,
+    "apartmentNumber": 7,
+    "areaOfTheApartment": 65,
+    "price": 5985000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 4,
+    "apartmentNumber": 8,
+    "areaOfTheApartment": 85,
+    "price": 7980000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 1,
+    "apartmentNumber": 9,
+    "areaOfTheApartment": 30,
+    "price": 2625000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 2,
+    "apartmentNumber": 10,
+    "areaOfTheApartment": 45,
+    "price": 4200000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 3,
+    "apartmentNumber": 11,
+    "areaOfTheApartment": 65,
+    "price": 6300000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 4,
+    "apartmentNumber": 12,
+    "areaOfTheApartment": 85,
+    "price": 8400000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 1,
+    "apartmentNumber": 13,
+    "areaOfTheApartment": 30,
+    "price": 2625000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 2,
+    "apartmentNumber": 14,
+    "areaOfTheApartment": 45,
+    "price": 4200000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 3,
+    "apartmentNumber": 15,
+    "areaOfTheApartment": 65,
+    "price": 6300000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 4,
+    "apartmentNumber": 16,
+    "areaOfTheApartment": 85,
+    "price": 8400000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 1,
+    "apartmentNumber": 17,
+    "areaOfTheApartment": 30,
+    "price": 2625000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 2,
+    "apartmentNumber": 18,
+    "areaOfTheApartment": 45,
+    "price": 4200000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 3,
+    "apartmentNumber": 19,
+    "areaOfTheApartment": 65,
+    "price": 6300000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 4,
+    "apartmentNumber": 20,
+    "areaOfTheApartment": 85,
+    "price": 8400000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 1,
+    "apartmentNumber": 21,
+    "areaOfTheApartment": 30,
+    "price": 2625000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 2,
+    "apartmentNumber": 22,
+    "areaOfTheApartment": 45,
+    "price": 4200000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 3,
+    "apartmentNumber": 23,
+    "areaOfTheApartment": 65,
+    "price": 6300000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 4,
+    "apartmentNumber": 24,
+    "areaOfTheApartment": 85,
+    "price": 8400000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 1,
+    "apartmentNumber": 25,
+    "areaOfTheApartment": 30,
+    "price": 2625000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 2,
+    "apartmentNumber": 26,
+    "areaOfTheApartment": 45,
+    "price": 4200000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 3,
+    "apartmentNumber": 27,
+    "areaOfTheApartment": 65,
+    "price": 6300000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 4,
+    "apartmentNumber": 28,
+    "areaOfTheApartment": 85,
+    "price": 8400000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 1,
+    "apartmentNumber": 29,
+    "areaOfTheApartment": 30,
+    "price": 2625000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 2,
+    "apartmentNumber": 30,
+    "areaOfTheApartment": 45,
+    "price": 4200000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 3,
+    "apartmentNumber": 31,
+    "areaOfTheApartment": 65,
+    "price": 6300000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 4,
+    "apartmentNumber": 32,
+    "areaOfTheApartment": 85,
+    "price": 8400000,
+    "maxFloor": 8
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 1,
+    "apartmentNumber": 1,
+    "areaOfTheApartment": 30,
+    "price": 2475000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 2,
+    "apartmentNumber": 2,
+    "areaOfTheApartment": 45,
+    "price": 3960000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 3,
+    "apartmentNumber": 3,
+    "areaOfTheApartment": 65,
+    "price": 5940000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 4,
+    "apartmentNumber": 4,
+    "areaOfTheApartment": 85,
+    "price": 7920000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 1,
+    "apartmentNumber": 5,
+    "areaOfTheApartment": 30,
+    "price": 2612500,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 2,
+    "apartmentNumber": 6,
+    "areaOfTheApartment": 45,
+    "price": 4180000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 3,
+    "apartmentNumber": 7,
+    "areaOfTheApartment": 65,
+    "price": 6270000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 4,
+    "apartmentNumber": 8,
+    "areaOfTheApartment": 85,
+    "price": 8360000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 1,
+    "apartmentNumber": 9,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 2,
+    "apartmentNumber": 10,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 3,
+    "apartmentNumber": 11,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 4,
+    "apartmentNumber": 12,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 1,
+    "apartmentNumber": 13,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 2,
+    "apartmentNumber": 14,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 3,
+    "apartmentNumber": 15,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 4,
+    "apartmentNumber": 16,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 1,
+    "apartmentNumber": 17,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 2,
+    "apartmentNumber": 18,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 3,
+    "apartmentNumber": 19,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 4,
+    "apartmentNumber": 20,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 1,
+    "apartmentNumber": 21,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 2,
+    "apartmentNumber": 22,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 3,
+    "apartmentNumber": 23,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 4,
+    "apartmentNumber": 24,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 1,
+    "apartmentNumber": 25,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 2,
+    "apartmentNumber": 26,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 3,
+    "apartmentNumber": 27,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 4,
+    "apartmentNumber": 28,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 1,
+    "apartmentNumber": 29,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 2,
+    "apartmentNumber": 30,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 3,
+    "apartmentNumber": 31,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 4,
+    "apartmentNumber": 32,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 1,
+    "apartmentNumber": 33,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 2,
+    "apartmentNumber": 34,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 3,
+    "apartmentNumber": 35,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 4,
+    "apartmentNumber": 36,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 1,
+    "apartmentNumber": 37,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 2,
+    "apartmentNumber": 38,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 3,
+    "apartmentNumber": 39,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 4,
+    "apartmentNumber": 40,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 1,
+    "apartmentNumber": 41,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 2,
+    "apartmentNumber": 42,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 3,
+    "apartmentNumber": 43,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 4,
+    "apartmentNumber": 44,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 1,
+    "apartmentNumber": 45,
+    "areaOfTheApartment": 30,
+    "price": 2750000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 2,
+    "apartmentNumber": 46,
+    "areaOfTheApartment": 45,
+    "price": 4400000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 3,
+    "apartmentNumber": 47,
+    "areaOfTheApartment": 65,
+    "price": 6600000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 4,
+    "apartmentNumber": 48,
+    "areaOfTheApartment": 85,
+    "price": 8800000,
+    "maxFloor": 12
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 1,
+    "apartmentNumber": 1,
+    "areaOfTheApartment": 30,
+    "price": 2587500,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 2,
+    "apartmentNumber": 2,
+    "areaOfTheApartment": 45,
+    "price": 4140000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 3,
+    "apartmentNumber": 3,
+    "areaOfTheApartment": 65,
+    "price": 6209999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 4,
+    "apartmentNumber": 4,
+    "areaOfTheApartment": 85,
+    "price": 8280000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 1,
+    "apartmentNumber": 5,
+    "areaOfTheApartment": 30,
+    "price": 2731250,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 2,
+    "apartmentNumber": 6,
+    "areaOfTheApartment": 45,
+    "price": 4370000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 3,
+    "apartmentNumber": 7,
+    "areaOfTheApartment": 65,
+    "price": 6554999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 4,
+    "apartmentNumber": 8,
+    "areaOfTheApartment": 85,
+    "price": 8740000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 1,
+    "apartmentNumber": 9,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 2,
+    "apartmentNumber": 10,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 3,
+    "apartmentNumber": 11,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 4,
+    "apartmentNumber": 12,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 1,
+    "apartmentNumber": 13,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 2,
+    "apartmentNumber": 14,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 3,
+    "apartmentNumber": 15,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 4,
+    "apartmentNumber": 16,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 1,
+    "apartmentNumber": 17,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 2,
+    "apartmentNumber": 18,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 3,
+    "apartmentNumber": 19,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 4,
+    "apartmentNumber": 20,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 1,
+    "apartmentNumber": 21,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 2,
+    "apartmentNumber": 22,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 3,
+    "apartmentNumber": 23,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 4,
+    "apartmentNumber": 24,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 1,
+    "apartmentNumber": 25,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 2,
+    "apartmentNumber": 26,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 3,
+    "apartmentNumber": 27,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 4,
+    "apartmentNumber": 28,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 1,
+    "apartmentNumber": 29,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 2,
+    "apartmentNumber": 30,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 3,
+    "apartmentNumber": 31,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 4,
+    "apartmentNumber": 32,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 1,
+    "apartmentNumber": 33,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 2,
+    "apartmentNumber": 34,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 3,
+    "apartmentNumber": 35,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 4,
+    "apartmentNumber": 36,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 1,
+    "apartmentNumber": 37,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 2,
+    "apartmentNumber": 38,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 3,
+    "apartmentNumber": 39,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 4,
+    "apartmentNumber": 40,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 1,
+    "apartmentNumber": 41,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 2,
+    "apartmentNumber": 42,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 3,
+    "apartmentNumber": 43,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 4,
+    "apartmentNumber": 44,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 1,
+    "apartmentNumber": 45,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 2,
+    "apartmentNumber": 46,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 3,
+    "apartmentNumber": 47,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 4,
+    "apartmentNumber": 48,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 1,
+    "apartmentNumber": 49,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 2,
+    "apartmentNumber": 50,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 3,
+    "apartmentNumber": 51,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 4,
+    "apartmentNumber": 52,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 1,
+    "apartmentNumber": 53,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 2,
+    "apartmentNumber": 54,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 3,
+    "apartmentNumber": 55,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 4,
+    "apartmentNumber": 56,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 1,
+    "apartmentNumber": 57,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 2,
+    "apartmentNumber": 58,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 3,
+    "apartmentNumber": 59,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 4,
+    "apartmentNumber": 60,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 1,
+    "apartmentNumber": 61,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 2,
+    "apartmentNumber": 62,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 3,
+    "apartmentNumber": 63,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 4,
+    "apartmentNumber": 64,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 1,
+    "apartmentNumber": 65,
+    "areaOfTheApartment": 30,
+    "price": 2875000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 2,
+    "apartmentNumber": 66,
+    "areaOfTheApartment": 45,
+    "price": 4600000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 3,
+    "apartmentNumber": 67,
+    "areaOfTheApartment": 65,
+    "price": 6899999,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 4,
+    "apartmentNumber": 68,
+    "areaOfTheApartment": 85,
+    "price": 9200000,
+    "maxFloor": 17
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 1,
+    "apartmentNumber": 1,
+    "areaOfTheApartment": 30,
+    "price": 2137500,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 2,
+    "apartmentNumber": 2,
+    "areaOfTheApartment": 45,
+    "price": 3420000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 3,
+    "apartmentNumber": 3,
+    "areaOfTheApartment": 65,
+    "price": 5130000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 4,
+    "apartmentNumber": 4,
+    "areaOfTheApartment": 85,
+    "price": 6840000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 1,
+    "apartmentNumber": 5,
+    "areaOfTheApartment": 30,
+    "price": 2256250,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 2,
+    "apartmentNumber": 6,
+    "areaOfTheApartment": 45,
+    "price": 3610000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 3,
+    "apartmentNumber": 7,
+    "areaOfTheApartment": 65,
+    "price": 5415000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 4,
+    "apartmentNumber": 8,
+    "areaOfTheApartment": 85,
+    "price": 7220000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 1,
+    "apartmentNumber": 9,
+    "areaOfTheApartment": 30,
+    "price": 2375000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 2,
+    "apartmentNumber": 10,
+    "areaOfTheApartment": 45,
+    "price": 3800000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 3,
+    "apartmentNumber": 11,
+    "areaOfTheApartment": 65,
+    "price": 5700000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 4,
+    "apartmentNumber": 12,
+    "areaOfTheApartment": 85,
+    "price": 7600000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 1,
+    "apartmentNumber": 13,
+    "areaOfTheApartment": 30,
+    "price": 2375000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 2,
+    "apartmentNumber": 14,
+    "areaOfTheApartment": 45,
+    "price": 3800000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 3,
+    "apartmentNumber": 15,
+    "areaOfTheApartment": 65,
+    "price": 5700000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 4,
+    "apartmentNumber": 16,
+    "areaOfTheApartment": 85,
+    "price": 7600000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 1,
+    "apartmentNumber": 17,
+    "areaOfTheApartment": 30,
+    "price": 2375000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 2,
+    "apartmentNumber": 18,
+    "areaOfTheApartment": 45,
+    "price": 3800000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 3,
+    "apartmentNumber": 19,
+    "areaOfTheApartment": 65,
+    "price": 5700000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 4,
+    "apartmentNumber": 20,
+    "areaOfTheApartment": 85,
+    "price": 7600000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 1,
+    "apartmentNumber": 21,
+    "areaOfTheApartment": 30,
+    "price": 2375000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 2,
+    "apartmentNumber": 22,
+    "areaOfTheApartment": 45,
+    "price": 3800000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 3,
+    "apartmentNumber": 23,
+    "areaOfTheApartment": 65,
+    "price": 5700000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 4,
+    "apartmentNumber": 24,
+    "areaOfTheApartment": 85,
+    "price": 7600000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 1,
+    "apartmentNumber": 25,
+    "areaOfTheApartment": 30,
+    "price": 2375000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 2,
+    "apartmentNumber": 26,
+    "areaOfTheApartment": 45,
+    "price": 3800000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 3,
+    "apartmentNumber": 27,
+    "areaOfTheApartment": 65,
+    "price": 5700000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 4,
+    "apartmentNumber": 28,
+    "areaOfTheApartment": 85,
+    "price": 7600000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 1,
+    "apartmentNumber": 29,
+    "areaOfTheApartment": 30,
+    "price": 2375000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 2,
+    "apartmentNumber": 30,
+    "areaOfTheApartment": 45,
+    "price": 3800000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 3,
+    "apartmentNumber": 31,
+    "areaOfTheApartment": 65,
+    "price": 5700000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 4,
+    "apartmentNumber": 32,
+    "areaOfTheApartment": 85,
+    "price": 7600000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 1,
+    "apartmentNumber": 33,
+    "areaOfTheApartment": 30,
+    "price": 2375000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 2,
+    "apartmentNumber": 34,
+    "areaOfTheApartment": 45,
+    "price": 3800000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 3,
+    "apartmentNumber": 35,
+    "areaOfTheApartment": 65,
+    "price": 5700000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 4,
+    "apartmentNumber": 36,
+    "areaOfTheApartment": 85,
+    "price": 7600000,
+    "maxFloor": 9
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 1,
+    "apartmentNumber": 1,
+    "areaOfTheApartment": 30,
+    "price": 2700000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 2,
+    "apartmentNumber": 2,
+    "areaOfTheApartment": 45,
+    "price": 4320000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 3,
+    "apartmentNumber": 3,
+    "areaOfTheApartment": 65,
+    "price": 6480000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 4,
+    "apartmentNumber": 4,
+    "areaOfTheApartment": 85,
+    "price": 8640000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 1,
+    "apartmentNumber": 5,
+    "areaOfTheApartment": 30,
+    "price": 2850000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 2,
+    "apartmentNumber": 6,
+    "areaOfTheApartment": 45,
+    "price": 4560000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 3,
+    "apartmentNumber": 7,
+    "areaOfTheApartment": 65,
+    "price": 6840000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 4,
+    "apartmentNumber": 8,
+    "areaOfTheApartment": 85,
+    "price": 9120000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 1,
+    "apartmentNumber": 9,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 2,
+    "apartmentNumber": 10,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 3,
+    "apartmentNumber": 11,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 4,
+    "apartmentNumber": 12,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 1,
+    "apartmentNumber": 13,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 2,
+    "apartmentNumber": 14,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 3,
+    "apartmentNumber": 15,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 4,
+    "apartmentNumber": 16,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 1,
+    "apartmentNumber": 17,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 2,
+    "apartmentNumber": 18,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 3,
+    "apartmentNumber": 19,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 4,
+    "apartmentNumber": 20,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 1,
+    "apartmentNumber": 21,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 2,
+    "apartmentNumber": 22,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 3,
+    "apartmentNumber": 23,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 4,
+    "apartmentNumber": 24,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 1,
+    "apartmentNumber": 25,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 2,
+    "apartmentNumber": 26,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 3,
+    "apartmentNumber": 27,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 4,
+    "apartmentNumber": 28,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 1,
+    "apartmentNumber": 29,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 2,
+    "apartmentNumber": 30,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 3,
+    "apartmentNumber": 31,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 4,
+    "apartmentNumber": 32,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 1,
+    "apartmentNumber": 33,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 2,
+    "apartmentNumber": 34,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 3,
+    "apartmentNumber": 35,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 4,
+    "apartmentNumber": 36,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 1,
+    "apartmentNumber": 37,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 2,
+    "apartmentNumber": 38,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 3,
+    "apartmentNumber": 39,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 4,
+    "apartmentNumber": 40,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 1,
+    "apartmentNumber": 41,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 2,
+    "apartmentNumber": 42,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 3,
+    "apartmentNumber": 43,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 4,
+    "apartmentNumber": 44,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 1,
+    "apartmentNumber": 45,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 2,
+    "apartmentNumber": 46,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 3,
+    "apartmentNumber": 47,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 4,
+    "apartmentNumber": 48,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 1,
+    "apartmentNumber": 49,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 2,
+    "apartmentNumber": 50,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 3,
+    "apartmentNumber": 51,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 4,
+    "apartmentNumber": 52,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 1,
+    "apartmentNumber": 53,
+    "areaOfTheApartment": 30,
+    "price": 3000000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 2,
+    "apartmentNumber": 54,
+    "areaOfTheApartment": 45,
+    "price": 4800000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 3,
+    "apartmentNumber": 55,
+    "areaOfTheApartment": 65,
+    "price": 7200000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 4,
+    "apartmentNumber": 56,
+    "areaOfTheApartment": 85,
+    "price": 9600000,
+    "maxFloor": 14
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 1,
+    "apartmentNumber": 1,
+    "areaOfTheApartment": 30,
+    "price": 2025000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 2,
+    "apartmentNumber": 2,
+    "areaOfTheApartment": 45,
+    "price": 3240000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 3,
+    "apartmentNumber": 3,
+    "areaOfTheApartment": 65,
+    "price": 4860000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 4,
+    "apartmentNumber": 4,
+    "areaOfTheApartment": 85,
+    "price": 6480000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 1,
+    "apartmentNumber": 5,
+    "areaOfTheApartment": 30,
+    "price": 2137500,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 2,
+    "apartmentNumber": 6,
+    "areaOfTheApartment": 45,
+    "price": 3420000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 3,
+    "apartmentNumber": 7,
+    "areaOfTheApartment": 65,
+    "price": 5130000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 4,
+    "apartmentNumber": 8,
+    "areaOfTheApartment": 85,
+    "price": 6840000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 1,
+    "apartmentNumber": 9,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 2,
+    "apartmentNumber": 10,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 3,
+    "apartmentNumber": 11,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 4,
+    "apartmentNumber": 12,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 1,
+    "apartmentNumber": 13,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 2,
+    "apartmentNumber": 14,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 3,
+    "apartmentNumber": 15,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 4,
+    "apartmentNumber": 16,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 1,
+    "apartmentNumber": 17,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 2,
+    "apartmentNumber": 18,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 3,
+    "apartmentNumber": 19,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 4,
+    "apartmentNumber": 20,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 1,
+    "apartmentNumber": 21,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 2,
+    "apartmentNumber": 22,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 3,
+    "apartmentNumber": 23,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 4,
+    "apartmentNumber": 24,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 1,
+    "apartmentNumber": 25,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 2,
+    "apartmentNumber": 26,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 3,
+    "apartmentNumber": 27,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 4,
+    "apartmentNumber": 28,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 1,
+    "apartmentNumber": 29,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 2,
+    "apartmentNumber": 30,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 3,
+    "apartmentNumber": 31,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 4,
+    "apartmentNumber": 32,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 1,
+    "apartmentNumber": 33,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 2,
+    "apartmentNumber": 34,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 3,
+    "apartmentNumber": 35,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 4,
+    "apartmentNumber": 36,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 1,
+    "apartmentNumber": 37,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 2,
+    "apartmentNumber": 38,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 3,
+    "apartmentNumber": 39,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 4,
+    "apartmentNumber": 40,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 1,
+    "apartmentNumber": 41,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 2,
+    "apartmentNumber": 42,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 3,
+    "apartmentNumber": 43,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 4,
+    "apartmentNumber": 44,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 1,
+    "apartmentNumber": 45,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 2,
+    "apartmentNumber": 46,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 3,
+    "apartmentNumber": 47,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 4,
+    "apartmentNumber": 48,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 1,
+    "apartmentNumber": 49,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 2,
+    "apartmentNumber": 50,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 3,
+    "apartmentNumber": 51,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 4,
+    "apartmentNumber": 52,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 1,
+    "apartmentNumber": 53,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 2,
+    "apartmentNumber": 54,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 3,
+    "apartmentNumber": 55,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 4,
+    "apartmentNumber": 56,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 1,
+    "apartmentNumber": 57,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 2,
+    "apartmentNumber": 58,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 3,
+    "apartmentNumber": 59,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 4,
+    "apartmentNumber": 60,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 1,
+    "apartmentNumber": 61,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 2,
+    "apartmentNumber": 62,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 3,
+    "apartmentNumber": 63,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 4,
+    "apartmentNumber": 64,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 1,
+    "apartmentNumber": 65,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 2,
+    "apartmentNumber": 66,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 3,
+    "apartmentNumber": 67,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 4,
+    "apartmentNumber": 68,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 18,
+    "numberOfRooms": 1,
+    "apartmentNumber": 69,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 18,
+    "numberOfRooms": 2,
+    "apartmentNumber": 70,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 18,
+    "numberOfRooms": 3,
+    "apartmentNumber": 71,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 18,
+    "numberOfRooms": 4,
+    "apartmentNumber": 72,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 19,
+    "numberOfRooms": 1,
+    "apartmentNumber": 73,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 19,
+    "numberOfRooms": 2,
+    "apartmentNumber": 74,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 19,
+    "numberOfRooms": 3,
+    "apartmentNumber": 75,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 19,
+    "numberOfRooms": 4,
+    "apartmentNumber": 76,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 20,
+    "numberOfRooms": 1,
+    "apartmentNumber": 77,
+    "areaOfTheApartment": 30,
+    "price": 2250000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 20,
+    "numberOfRooms": 2,
+    "apartmentNumber": 78,
+    "areaOfTheApartment": 45,
+    "price": 3600000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 20,
+    "numberOfRooms": 3,
+    "apartmentNumber": 79,
+    "areaOfTheApartment": 65,
+    "price": 5400000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 20,
+    "numberOfRooms": 4,
+    "apartmentNumber": 80,
+    "areaOfTheApartment": 85,
+    "price": 7200000,
+    "maxFloor": 20
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 1,
+    "apartmentNumber": 1,
+    "areaOfTheApartment": 30,
+    "price": 2925000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 2,
+    "apartmentNumber": 2,
+    "areaOfTheApartment": 45,
+    "price": 4680000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 3,
+    "apartmentNumber": 3,
+    "areaOfTheApartment": 65,
+    "price": 7020000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 1,
+    "numberOfRooms": 4,
+    "apartmentNumber": 4,
+    "areaOfTheApartment": 85,
+    "price": 9360000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 1,
+    "apartmentNumber": 5,
+    "areaOfTheApartment": 30,
+    "price": 3087500,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 2,
+    "apartmentNumber": 6,
+    "areaOfTheApartment": 45,
+    "price": 4940000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 3,
+    "apartmentNumber": 7,
+    "areaOfTheApartment": 65,
+    "price": 7410000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 2,
+    "numberOfRooms": 4,
+    "apartmentNumber": 8,
+    "areaOfTheApartment": 85,
+    "price": 9880000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 1,
+    "apartmentNumber": 9,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 2,
+    "apartmentNumber": 10,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 3,
+    "apartmentNumber": 11,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 3,
+    "numberOfRooms": 4,
+    "apartmentNumber": 12,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 1,
+    "apartmentNumber": 13,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 2,
+    "apartmentNumber": 14,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 3,
+    "apartmentNumber": 15,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 4,
+    "numberOfRooms": 4,
+    "apartmentNumber": 16,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 1,
+    "apartmentNumber": 17,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 2,
+    "apartmentNumber": 18,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 3,
+    "apartmentNumber": 19,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 5,
+    "numberOfRooms": 4,
+    "apartmentNumber": 20,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 1,
+    "apartmentNumber": 21,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 2,
+    "apartmentNumber": 22,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 3,
+    "apartmentNumber": 23,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 6,
+    "numberOfRooms": 4,
+    "apartmentNumber": 24,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 1,
+    "apartmentNumber": 25,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 2,
+    "apartmentNumber": 26,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 3,
+    "apartmentNumber": 27,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 7,
+    "numberOfRooms": 4,
+    "apartmentNumber": 28,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 1,
+    "apartmentNumber": 29,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 2,
+    "apartmentNumber": 30,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 3,
+    "apartmentNumber": 31,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 8,
+    "numberOfRooms": 4,
+    "apartmentNumber": 32,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 1,
+    "apartmentNumber": 33,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 2,
+    "apartmentNumber": 34,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 3,
+    "apartmentNumber": 35,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 9,
+    "numberOfRooms": 4,
+    "apartmentNumber": 36,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 1,
+    "apartmentNumber": 37,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 2,
+    "apartmentNumber": 38,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 3,
+    "apartmentNumber": 39,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 10,
+    "numberOfRooms": 4,
+    "apartmentNumber": 40,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 1,
+    "apartmentNumber": 41,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 2,
+    "apartmentNumber": 42,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 3,
+    "apartmentNumber": 43,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 11,
+    "numberOfRooms": 4,
+    "apartmentNumber": 44,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 1,
+    "apartmentNumber": 45,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 2,
+    "apartmentNumber": 46,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 3,
+    "apartmentNumber": 47,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 12,
+    "numberOfRooms": 4,
+    "apartmentNumber": 48,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 1,
+    "apartmentNumber": 49,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 2,
+    "apartmentNumber": 50,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 3,
+    "apartmentNumber": 51,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 13,
+    "numberOfRooms": 4,
+    "apartmentNumber": 52,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 1,
+    "apartmentNumber": 53,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 2,
+    "apartmentNumber": 54,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 3,
+    "apartmentNumber": 55,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 14,
+    "numberOfRooms": 4,
+    "apartmentNumber": 56,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 1,
+    "apartmentNumber": 57,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 2,
+    "apartmentNumber": 58,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 3,
+    "apartmentNumber": 59,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 15,
+    "numberOfRooms": 4,
+    "apartmentNumber": 60,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 1,
+    "apartmentNumber": 61,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 2,
+    "apartmentNumber": 62,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 3,
+    "apartmentNumber": 63,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 16,
+    "numberOfRooms": 4,
+    "apartmentNumber": 64,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 1,
+    "apartmentNumber": 65,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 2,
+    "apartmentNumber": 66,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 3,
+    "apartmentNumber": 67,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 17,
+    "numberOfRooms": 4,
+    "apartmentNumber": 68,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 18,
+    "numberOfRooms": 1,
+    "apartmentNumber": 69,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 18,
+    "numberOfRooms": 2,
+    "apartmentNumber": 70,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 18,
+    "numberOfRooms": 3,
+    "apartmentNumber": 71,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 18,
+    "numberOfRooms": 4,
+    "apartmentNumber": 72,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 19,
+    "numberOfRooms": 1,
+    "apartmentNumber": 73,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 19,
+    "numberOfRooms": 2,
+    "apartmentNumber": 74,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 19,
+    "numberOfRooms": 3,
+    "apartmentNumber": 75,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 19,
+    "numberOfRooms": 4,
+    "apartmentNumber": 76,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 20,
+    "numberOfRooms": 1,
+    "apartmentNumber": 77,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 20,
+    "numberOfRooms": 2,
+    "apartmentNumber": 78,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 20,
+    "numberOfRooms": 3,
+    "apartmentNumber": 79,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 20,
+    "numberOfRooms": 4,
+    "apartmentNumber": 80,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 21,
+    "numberOfRooms": 1,
+    "apartmentNumber": 81,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 21,
+    "numberOfRooms": 2,
+    "apartmentNumber": 82,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 21,
+    "numberOfRooms": 3,
+    "apartmentNumber": 83,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 21,
+    "numberOfRooms": 4,
+    "apartmentNumber": 84,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 22,
+    "numberOfRooms": 1,
+    "apartmentNumber": 85,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 22,
+    "numberOfRooms": 2,
+    "apartmentNumber": 86,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 22,
+    "numberOfRooms": 3,
+    "apartmentNumber": 87,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 22,
+    "numberOfRooms": 4,
+    "apartmentNumber": 88,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 23,
+    "numberOfRooms": 1,
+    "apartmentNumber": 89,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 23,
+    "numberOfRooms": 2,
+    "apartmentNumber": 90,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 23,
+    "numberOfRooms": 3,
+    "apartmentNumber": 91,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 23,
+    "numberOfRooms": 4,
+    "apartmentNumber": 92,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 24,
+    "numberOfRooms": 1,
+    "apartmentNumber": 93,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 24,
+    "numberOfRooms": 2,
+    "apartmentNumber": 94,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 24,
+    "numberOfRooms": 3,
+    "apartmentNumber": 95,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 24,
+    "numberOfRooms": 4,
+    "apartmentNumber": 96,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 25,
+    "numberOfRooms": 1,
+    "apartmentNumber": 97,
+    "areaOfTheApartment": 30,
+    "price": 3250000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 25,
+    "numberOfRooms": 2,
+    "apartmentNumber": 98,
+    "areaOfTheApartment": 45,
+    "price": 5200000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 25,
+    "numberOfRooms": 3,
+    "apartmentNumber": 99,
+    "areaOfTheApartment": 65,
+    "price": 7800000,
+    "maxFloor": 25
+  },
+  {
+    "image": "imageURL",
+    "floor": 25,
+    "numberOfRooms": 4,
+    "apartmentNumber": 100,
+    "areaOfTheApartment": 85,
+    "price": 10400000,
+    "maxFloor": 25
+  }
+]

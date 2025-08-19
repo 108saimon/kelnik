@@ -1,0 +1,25 @@
+body, html {
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1440px;
+  box-sizing: border-box;
+  background-color: blue;
+  padding: 96px 80px;
+}
+
+@media (max-width: 1339px) {
+  .container {
+    min-width: 960px;
+    width: 100%;
+    background-color: red;
+    padding: 48px 52px 48px 52px;
+  }
+}
