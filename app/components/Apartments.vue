@@ -1,8 +1,8 @@
 <script setup>
 import apartmentsData from '../mock/apartments.json';
-import { useAlertsStore } from '../stores/useApartmentsStore';
+import { useApartmentsStore } from '../stores/useApartmentsStore';
 
-const store = useAlertsStore()
+const store = useApartmentsStore()
 
 function fakeFetch(data) {
   return new Promise(resolve => {
@@ -17,6 +17,7 @@ function processApartmentsData(data) {
 }
 
 onMounted(() => {
+  // инициализируем стор
   fakeFetch(apartmentsData)
     .then(response => response.json())
     .then(json => {
