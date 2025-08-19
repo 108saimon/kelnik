@@ -12,33 +12,37 @@ interface Apartment {
 
 interface UseApartmentsStore {
   apartments: Apartment[],
-  maxPrice: number,
-  maxPriceFilter: number,
-  minPrice: number,
-  minPriceFilter:number,
-  minArea: number,
-  minAreaFilter: number,
-  maxArea: number,
-  maxAreaFilter: number,
-  numberOfRoomsFilter: number[],
   currentApartments: Apartment[],
   page: number,
+  filters: {
+    maxPrice: number,
+    maxPriceCurrent: number,
+    minPrice: number,
+    minPriceCurrent:number,
+    minArea: number,
+    minAreaCurrent: number,
+    maxArea: number,
+    maxAreaCurrent: number,
+    numberOfRoomsFilter: number[],
+  }
 }
 
 export const useApartmentsStore = defineStore('apartments', {
   state: (): UseApartmentsStore => ({
     apartments: [],
-    maxPrice: 0,
-    maxPriceFilter: 0,
-    minPrice: 0,
-    minPriceFilter:0,
-    minArea: 0,
-    minAreaFilter: 0,
-    maxArea: 0,
-    maxAreaFilter: 0,
-    numberOfRoomsFilter: [],
     currentApartments: [],
     page: 1,
+    filters: {
+      maxPrice: 0,
+      maxPriceCurrent: 0,
+      minPrice: 0,
+      minPriceCurrent:0,
+      minArea: 0,
+      minAreaCurrent: 0,
+      maxArea: 0,
+      maxAreaCurrent: 0,
+      numberOfRoomsFilter: [],
+    }
   }),
   actions: {
     setApartments(apartments: any) {

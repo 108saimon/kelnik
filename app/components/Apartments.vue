@@ -23,18 +23,19 @@ function initApartmentsConfig(data) {
   store.minArea = Math.min(...areas);
 
   // если не сохранено значений фильтров устанавливаем их в значения по умолчанию
-  store.maxPriceFilter = store.maxPrice;
-  store.minPriceFilter = store.minPrice;
-  store.maxAreaFilter = store.maxArea;
-  store.minAreaFilter = store.minArea;
+  store.filters.maxPriceCurrent = store.maxPrice;
+  store.filters.minPriceCurrent = store.minPrice;
+  store.filters.maxAreaCurrent = store.maxArea;
+  store.filters.minAreaCurrent = store.minArea;
 }
 
+// TODO - доработать конец списка
 function processApartmentsData(data) {
   return data.filter(item =>
-    item.price >= store.minPriceFilter
-    && item.price <= store.maxPriceFilter
-    && item.areaOfTheApartment >= store.minAreaFilter
-    && item.areaOfTheApartment <= store.maxAreaFilter
+    item.price >= store.filters.minPriceCurrent
+    && item.price <= store.filters.maxPriceCurrent
+    && item.areaOfTheApartment >= store.filters.minAreaCurrent
+    && item.areaOfTheApartment <= store.filters.maxAreaCurrent
   ).slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);
 }
 
