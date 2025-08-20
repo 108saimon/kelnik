@@ -31,16 +31,20 @@ function processApartmentsData(data) {
     && item.areaOfTheApartment >= store.filters.minAreaCurrent
     && item.areaOfTheApartment <= store.filters.maxAreaCurrent
     && store.filters.numberOfRooms.includes(item.numberOfRooms)
-  ).slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);
+  )
+
+  const sortedData = store.sort.order === 'asc' ?
+    filterdData.sort((a, b) => a[store.sort.type] - b[store.sort.type])
+    : filterdData.sort((a, b) => b[store.sort.type] - a[store.sort.type]);
 
   // скрываем кнопку "загрузить ещё по необходимости"
-  if (filterdData.length < 20) {
+  if (sortedData.length < 20) {
     showLoadMore.value = false;
   } else {
     showLoadMore.value = true;
   }
 
-  return filterdData;
+  return sortedData.slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);;
 }
 
 async function loadMore() {
@@ -72,6 +76,12 @@ function changeNumberOfRooms(value) {
       store.filters.numberOfRooms.push(value);
     }
   }
+  onFilterChange();
+}
+
+// TODO - добавить возрастание и убываение
+function sortBy(type) {
+  store.sort.type = type;
   onFilterChange();
 }
 
@@ -124,11 +134,15 @@ onMounted(() => {
   <div class="container">
     <div class="apartments-list__container">
       <h1 class="apartments-list__title">Квартиры</h1>
-      Бвшм 
+      <div class="apartments-sort__buttons">
+        <div class="apartments-sort__button" @click="sortBy('areaOfTheApartment')">S, м²</div>
+        <div class="apartments-sort__button" @click="sortBy('floor')">Этаж</div>
+        <div class="apartments-sort__button" @click="sortBy('price')">Цена, ₽</div>
+      </div>
       <div v-show="store.apartments.length > 0">
         <ul>
           <li v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
-            {{ 'номер квартиры ' + apartment.apartmentNumber + ' цена квартиры ' + apartment.price + ' площадь квартиры ' + apartment.areaOfTheApartment }}
+            {{ 'номер квартиры ' + apartment.apartmentNumber + ' цена квартиры ' + apartment.price + ' площадь квартиры ' + apartment.areaOfTheApartment + ' этаж ' + apartment.floor + ' из ' + apartment.maxFloor }}
           </li>
         </ul>
       </div>

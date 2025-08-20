@@ -11,6 +11,9 @@ interface Apartment {
   maxFloor: number
 }
 
+type SortTypes = 'price' | 'areaOfTheApartment' | 'floor';
+type SortOrder = 'asc' | 'desc';
+
 interface UseApartmentsStore {
   apartments: Apartment[],
   currentApartments: Apartment[],
@@ -25,6 +28,10 @@ interface UseApartmentsStore {
     maxArea: number,
     maxAreaCurrent: number,
     numberOfRooms: number[],
+  },
+  sort: {
+    type: SortTypes,
+    order: SortOrder,
   }
 }
 
@@ -43,6 +50,10 @@ export const useApartmentsStore = defineStore('apartments', {
       maxArea: 0,
       maxAreaCurrent: 0,
       numberOfRooms: [],
+    },
+    sort: {
+      type: 'price',
+      order: 'asc',
     }
   }),
   actions: {
