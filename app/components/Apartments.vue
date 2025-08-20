@@ -1,9 +1,12 @@
 <script setup>
 import apartmentsData from '../mock/apartments.json';
 import { useApartmentsStore } from '../stores/apartments';
+import noUiSlider from 'nouislider';
+import 'nouislider/dist/nouislider.css';
 
 const store = useApartmentsStore();
 
+// TODO - переделать на fetch
 function fakeFetch(data) {
   return new Promise(resolve => {
     setTimeout(() => {
@@ -16,17 +19,17 @@ function fakeFetch(data) {
 // получаем данные для фильтра
 function initApartmentsConfig(data) {
   const prices = data.map(item => item.price);
-  store.maxPrice = Math.max(...prices);
-  store.minPrice = Math.min(...prices);
+  store.filters.maxPrice = Math.max(...prices);
+  store.filters.minPrice = Math.min(...prices);
   const areas = data.map(item => item.areaOfTheApartment);
-  store.maxArea = Math.max(...areas);
-  store.minArea = Math.min(...areas);
+  store.filters.maxArea = Math.max(...areas);
+  store.filters.minArea = Math.min(...areas);
 
   // если не сохранено значений фильтров устанавливаем их в значения по умолчанию
-  store.filters.maxPriceCurrent = store.maxPrice;
-  store.filters.minPriceCurrent = store.minPrice;
-  store.filters.maxAreaCurrent = store.maxArea;
-  store.filters.minAreaCurrent = store.minArea;
+  store.filters.maxPriceCurrent = store.filters.maxPrice;
+  store.filters.minPriceCurrent = store.filters.minPrice;
+  store.filters.maxAreaCurrent = store.filters.maxArea;
+  store.filters.minAreaCurrent = store.filters.minArea;
 }
 
 // TODO - доработать конец списка
@@ -48,6 +51,8 @@ function loadMore() {
   console.log('wtf', store.currentApartments);
 }
 
+const priceFilterRangeSlider = ref(null);
+
 onMounted(() => {
   // инициализируем стор
   fakeFetch(apartmentsData)
@@ -57,6 +62,29 @@ onMounted(() => {
       store.setApartments(json);
       store.setCurrentApartments(processApartmentsData(store.apartments));
       console.log(store.apartments);
+    }).then(data => {
+        if (priceFilterRangeSlider.value) {
+          noUiSlider.create(priceFilterRangeSlider.value, {
+            // noUiSlider options
+            start: [store.filters.minPriceCurrent, store.filters.maxPriceCurrent], // Initial values for handles
+            connect: true, // Connect the handles with a bar
+            range: {
+              'min': store.filters.minPrice,
+              'max': store.filters.maxPrice,
+            }
+          })
+
+          // Optional: Listen for updates and handle values
+          priceFilterRangeSlider.value.noUiSlider.on('update', (values, handle) => {
+            console.log(values);
+          });
+
+          priceFilterRangeSlider.value.noUiSlider.on('change', (values, handle) => {
+            console.log('CHANGE!!!', values);
+          });
+        } else {
+          console.error("Slider element not found!")
+        }
     });
 })
 </script>
@@ -78,6 +106,7 @@ onMounted(() => {
     </div>
     <div class="apartments__filter">
       Фильтры
+      <div ref="priceFilterRangeSlider"></div>
     </div>
   </div>
 </template>
@@ -93,5 +122,9 @@ onMounted(() => {
   background-image: linear-gradient(to right, #AEE4B2, #95D0A1);
   padding: 20px;
   border-radius: 20px;
+}
+.price_filter__slider-range {
+  position: relative;
+  width: 240px;
 }
 </style>
