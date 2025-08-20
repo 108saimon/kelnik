@@ -65,14 +65,14 @@ onMounted(() => {
     }
 
     sliderRef.value.noUiSlider.on('update', (values, handle) => {
-      console.log(values);
+      // console.log(values);
       sliderCurrentMin.value = parseFloat(values[0]);
       sliderCurrentMax.value = parseFloat(values[1]);
     });
 
     sliderRef.value.noUiSlider.on('change', (values, handle) => {
       emit('change', values)
-      console.log('CHANGE', values);
+      // console.log('CHANGE', values);
     });
   } else {
     console.error("Slider element not found!")

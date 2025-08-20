@@ -77,7 +77,6 @@ function changeNumberOfRooms(value) {
 
 async function onFilterChange() {
   store.page = 1
-  const data = await loadData();
   slidersIsDisabled.value = true
   await loadData().then(data => {
     store.currentApartments = [...processApartmentsData(data)];
