@@ -24,7 +24,7 @@ interface UseApartmentsStore {
     minAreaCurrent: number,
     maxArea: number,
     maxAreaCurrent: number,
-    numberOfRoomsFilter: number[],
+    numberOfRooms: number[],
   }
 }
 
@@ -42,7 +42,7 @@ export const useApartmentsStore = defineStore('apartments', {
       minAreaCurrent: 0,
       maxArea: 0,
       maxAreaCurrent: 0,
-      numberOfRoomsFilter: [],
+      numberOfRooms: [],
     }
   }),
   actions: {
