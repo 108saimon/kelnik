@@ -20,16 +20,20 @@ function initApartmentsConfig(data) {
   store.filters.minPriceCurrent = store.filters.minPrice;
   store.filters.maxAreaCurrent = store.filters.maxArea;
   store.filters.minAreaCurrent = store.filters.minArea;
+  store.filters.numberOfRooms = [1,2,3,4];
 }
 
+// функция которая имитирует ответ от бэка - фильтрация, сортировка и выдача по 20 сущностей
 function processApartmentsData(data) {
   const filterdData = data.filter(item =>
     item.price >= store.filters.minPriceCurrent
     && item.price <= store.filters.maxPriceCurrent
     && item.areaOfTheApartment >= store.filters.minAreaCurrent
     && item.areaOfTheApartment <= store.filters.maxAreaCurrent
+    && store.filters.numberOfRooms.includes(item.numberOfRooms)
   ).slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);
 
+  // скрываем кнопку "загрузить ещё по необходимости"
   if (filterdData.length < 20) {
     showLoadMore.value = false;
   } else {
