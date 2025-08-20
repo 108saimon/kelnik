@@ -174,7 +174,8 @@ onMounted(() => {
   width: calc(100% - 318px);
 }
 .apartments-list__title {
-  font-size: 24px;
+  font-size: 54px;
+  font-family: 'PTRootUIWebBold', sans-serif;
 }
 .apartments__filter {
   width: 318px;
