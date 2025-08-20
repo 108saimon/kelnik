@@ -15,7 +15,7 @@ function initApartmentsConfig(data) {
   store.filters.minArea = Math.min(...areas);
 
   // если не сохранено значений фильтров устанавливаем их в значения по умолчанию
-  // TODO - добавить сохранение в localStorage
+  // TODO - добавить извлечение из localStorage
   store.filters.maxPriceCurrent = store.filters.maxPrice;
   store.filters.minPriceCurrent = store.filters.minPrice;
   store.filters.maxAreaCurrent = store.filters.maxArea;
@@ -23,7 +23,6 @@ function initApartmentsConfig(data) {
 }
 
 function processApartmentsData(data) {
-  console.log('processApartmentsData', data);
   const filterdData = data.filter(item =>
     item.price >= store.filters.minPriceCurrent
     && item.price <= store.filters.maxPriceCurrent
@@ -47,20 +46,28 @@ async function loadMore() {
   store.currentApartments.push(...newData);
 }
 
-function changePriceCurrent(data) {
-  store.filters.minPriceCurrent = parseFloat(data[0]);
-  store.filters.maxPriceCurrent = parseFloat(data[1]);
+function changePriceCurrent(values) {
+  store.filters.minPriceCurrent = parseFloat(values[0]);
+  store.filters.maxPriceCurrent = parseFloat(values[1]);
 
-  store.page = 1
-  store.currentApartments = [...processApartmentsData(store.apartments)];
+  onFilterChange();
 }
 
-function changeAreaCurrent(data) {
-  store.filters.minAreaCurrent = parseFloat(data[0]);
-  store.filters.maxAreaCurrent = parseFloat(data[1]);
+function changeAreaCurrent(values) {
+  store.filters.minAreaCurrent = parseFloat(values[0]);
+  store.filters.maxAreaCurrent = parseFloat(values[1]);
 
+  onFilterChange();
+}
+
+async function onFilterChange() {
   store.page = 1
-  store.currentApartments = [...processApartmentsData(store.apartments)];
+  const data = await loadData();
+  slidersIsDisabled.value = true
+  await loadData().then(data => {
+    store.currentApartments = [...processApartmentsData(data)];
+    slidersIsDisabled.value = false
+  });
 }
 
 let storeIsReady = ref(false);
