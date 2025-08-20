@@ -54,6 +54,13 @@ function changePriceCurrent(values) {
 }
 
 function changeAreaCurrent(values) {
+  store.filters.minPriceCurrent = parseFloat(values[0]);
+  store.filters.maxPriceCurrent = parseFloat(values[1]);
+
+  onFilterChange();
+}
+
+async function changeAreaCurrent(values) {
   store.filters.minAreaCurrent = parseFloat(values[0]);
   store.filters.maxAreaCurrent = parseFloat(values[1]);
 
