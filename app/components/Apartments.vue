@@ -15,13 +15,13 @@ function initApartmentsConfig(data) {
   store.filters.minArea = Math.min(...areas);
 
   // если не сохранено значений фильтров устанавливаем их в значения по умолчанию
+  // TODO - добавить сохранение в localStorage
   store.filters.maxPriceCurrent = store.filters.maxPrice;
   store.filters.minPriceCurrent = store.filters.minPrice;
   store.filters.maxAreaCurrent = store.filters.maxArea;
   store.filters.minAreaCurrent = store.filters.minArea;
 }
 
-// TODO - доработать конец списка
 function processApartmentsData(data) {
   console.log('processApartmentsData', data);
   const filterdData = data.filter(item =>
@@ -31,16 +31,20 @@ function processApartmentsData(data) {
     && item.areaOfTheApartment <= store.filters.maxAreaCurrent
   ).slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);
 
+  if (filterdData.length < 20) {
+    showLoadMore.value = false;
+  } else {
+    showLoadMore.value = true;
+  }
+
   return filterdData;
 }
 
-function loadMore() {
+async function loadMore() {
   store.page++
-  console.log(store.page)
-  const newData = processApartmentsData(store.apartments);
-  console.log(newData)
+  const data = await loadData();
+  const newData = processApartmentsData(data);
   store.currentApartments.push(...newData);
-  console.log('wtf', store.currentApartments);
 }
 
 function changePriceCurrent(data) {
@@ -63,26 +67,31 @@ let storeIsReady = ref(false);
 
 let slidersIsDisabled = ref(false);
 
-let showLoadMore = true;
+let showLoadMore = ref(true);
 
 async function initData() {
   try {
-    // Файлы из `public/` доступны по корню сайта без префикса `public`
     const response = await fetch('/apartments_with_id.json');
     if (!response.ok) {
       throw new Error(`Ошибка при загрузке данных: ${response.status}`);
     }
     const data = await response.json();
-    console.log('fetchData', data);
     initApartmentsConfig(data);
     store.setApartments(data);
     store.setCurrentApartments(processApartmentsData(store.apartments));
-    console.log(store.apartments);
 
     storeIsReady.value = true;
   } catch (error) {
     console.error('Произошла ошибка:', error);
   }
+}
+
+async function loadData() {
+  const response = await fetch('/apartments_with_id.json');
+  if (!response.ok) {
+    throw new Error(`Ошибка при загрузке данных: ${response.status}`);
+  }
+  return await response.json();
 }
 
 onMounted(() => {
@@ -101,7 +110,7 @@ onMounted(() => {
           </li>
         </ul>
       </div>
-      <button @click="loadMore">
+      <button @click="loadMore" v-show="showLoadMore">
         Загрузить ещё
       </button>
     </div>
