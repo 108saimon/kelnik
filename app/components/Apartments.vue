@@ -138,10 +138,13 @@ onMounted(() => {
     </div>
     <div class="apartments__filter">
       <div class="number-of-room__buttons">
-        <div class="number-of-room__button" :class="{ disabled: !store.filters.numberOfRooms.includes(1) }" @click="changeNumberOfRooms(1)">1к</div>
-        <div class="number-of-room__button" :class="{ disabled: !store.filters.numberOfRooms.includes(2) }" @click="changeNumberOfRooms(2)">2к</div>
-        <div class="number-of-room__button" :class="{ disabled: !store.filters.numberOfRooms.includes(3) }" @click="changeNumberOfRooms(3)">3к</div>
-        <div class="number-of-room__button" :class="{ disabled: !store.filters.numberOfRooms.includes(4) }" @click="changeNumberOfRooms(4)">4к</div>
+        <div class="number-of-room__button"
+          v-for="value in [1,2,3,4]"
+          :key="`number-of-room-${value}`"
+          :class="{ disabled: !store.filters.numberOfRooms.includes(value) }"
+          @click="changeNumberOfRooms(value)">
+            {{ value }}к
+          </div>
       </div>
       <RangeSlider
         v-if="storeIsReady"
