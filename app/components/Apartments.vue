@@ -122,8 +122,9 @@ onMounted(() => {
 
 <template>
   <div class="container">
-    <div class="apartments__list">
-      <h1 class="title">Квартиры</h1>
+    <div class="apartments-list__container">
+      <h1 class="apartments-list__title">Квартиры</h1>
+      Бвшм 
       <div v-show="store.apartments.length > 0">
         <ul>
           <li v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
@@ -169,11 +170,11 @@ onMounted(() => {
   </div>
 </template>
 <style scoped>
-.title {
-  font-size: 24px;
-}
-.apartments__list {
+.apartments-list__container {
   width: calc(100% - 318px);
+}
+.apartments-list__title {
+  font-size: 24px;
 }
 .apartments__filter {
   width: 318px;

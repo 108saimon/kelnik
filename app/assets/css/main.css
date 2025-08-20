@@ -1,5 +1,60 @@
+@font-face {
+	font-family: 'PTRootUIWebBold';
+	src: 
+		url('PT-Root-UI_Bold.otf') format('otf'),
+		url('PT-Root-UI_Bold.ttf') format('ttf'),
+		url('PT-Root-UI_Bold.woff2') format('woff2'),
+		url('PT-Root-UI_Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTRootUIWebLight';
+	src: 
+		url('PT-Root-UI_Light.otf') format('otf'),
+		url('PT-Root-UI_Light.ttf') format('ttf'),
+		url('PT-Root-UI_Light.woff2') format('woff2'),
+		url('PT-Root-UI_Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTRootUIWebMedium';
+	src: 
+		url('PT-Root-UI_Medium.otf') format('otf'),
+		url('PT-Root-UI_Medium.ttf') format('ttf'),
+		url('PT-Root-UI_Medium.woff2') format('woff2'),
+		url('PT-Root-UI_Medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTRootUIWebRegular';
+	src: 
+		url('PT-Root-UI_Regular.otf') format('otf'),
+		url('PT-Root-UI_Regular.ttf') format('ttf'),
+		url('PT-Root-UI_Regular.woff2') format('woff2'),
+		url('PT-Root-UI_Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTRootUIWebVF';
+	src: 
+		url('PT-Root-UI_VF.ttf') format('ttf'),
+		url('PT-Root-UI_VF.woff2') format('woff2'),
+		url('PT-Root-UI_VF.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body, html {
   min-height: 100vh;
+  font-family: 'PTRootUIWebRegular', sans-serif;
 }
 
 div {
