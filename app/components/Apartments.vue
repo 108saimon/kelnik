@@ -64,6 +64,17 @@ function changeAreaCurrent(values) {
   onFilterChange();
 }
 
+function changeNumberOfRooms(value) {
+  if (value) {
+    if (store.filters.numberOfRooms.includes(value)) {
+      store.filters.numberOfRooms = store.filters.numberOfRooms.filter(item => item !== value);
+    } else {
+      store.filters.numberOfRooms.push(value);
+    }
+  }
+  onFilterChange();
+}
+
 async function onFilterChange() {
   store.page = 1
   const data = await loadData();
@@ -127,10 +138,10 @@ onMounted(() => {
     </div>
     <div class="apartments__filter">
       <div class="number-of-room__buttons">
-        <div class="number-of-room__button">1к</div>
-        <div class="number-of-room__button">2к</div>
-        <div class="number-of-room__button">3к</div>
-        <div class="number-of-room__button">4к</div>
+        <div class="number-of-room__button" :class="{ disabled: !store.filters.numberOfRooms.includes(1) }" @click="changeNumberOfRooms(1)">1к</div>
+        <div class="number-of-room__button" :class="{ disabled: !store.filters.numberOfRooms.includes(2) }" @click="changeNumberOfRooms(2)">2к</div>
+        <div class="number-of-room__button" :class="{ disabled: !store.filters.numberOfRooms.includes(3) }" @click="changeNumberOfRooms(3)">3к</div>
+        <div class="number-of-room__button" :class="{ disabled: !store.filters.numberOfRooms.includes(4) }" @click="changeNumberOfRooms(4)">4к</div>
       </div>
       <RangeSlider
         v-if="storeIsReady"
@@ -171,5 +182,32 @@ onMounted(() => {
 .price_filter__slider-range {
   position: relative;
   width: 240px;
+}
+.number-of-room__buttons {
+  display: flex;
+  width: 224px;
+  height: 44px;
+}
+.number-of-room__button {
+  width: 44px;
+  height: 44px;
+  background: #fff;
+  color: #0B1739;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.number-of-room__button.disabled {
+  color: rgba(11, 23, 57, 0.2);
+}
+.number-of-room__button:last-child {
+  margin-right: 0px;
+}
+.number-of-room__button:hover {
+  background: #3EB57C;
+  color: #fff;
 }
 </style>
