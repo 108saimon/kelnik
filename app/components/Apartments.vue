@@ -53,6 +53,34 @@ function loadMore() {
 
 const priceFilterRangeSlider = ref(null);
 
+// function addSlider(sliderRef, options, onUpdate, onChange) {
+//   if (sliderRef.value) {
+//     noUiSlider.create(sliderRef.value, {
+//       ...options
+//     })
+
+//     sliderRef.value.noUiSlider.on('update', (values, handle) => {
+//       console.log(values);
+//       onUpdate(values);
+//     });
+
+//     sliderRef.value.noUiSlider.on('change', (values, handle) => {
+//       console.log('CHANGE!!!', values);
+//       onChange(values);
+//     });
+//   } else {
+//     console.error("Slider element not found!")
+//   }
+// }
+
+function changePriceCurrent(data) {
+  console.log('data', data)
+  store.filters.minPriceCurrent = parseFloat(data[0]);
+  store.filters.maxPriceCurrent = parseFloat(data[1]);
+}
+
+let storeIsReady = ref(false);
+
 onMounted(() => {
   // инициализируем стор
   fakeFetch(apartmentsData)
@@ -62,30 +90,20 @@ onMounted(() => {
       store.setApartments(json);
       store.setCurrentApartments(processApartmentsData(store.apartments));
       console.log(store.apartments);
-    }).then(data => {
-        if (priceFilterRangeSlider.value) {
-          noUiSlider.create(priceFilterRangeSlider.value, {
-            // noUiSlider options
-            start: [store.filters.minPriceCurrent, store.filters.maxPriceCurrent], // Initial values for handles
-            connect: true, // Connect the handles with a bar
-            range: {
-              'min': store.filters.minPrice,
-              'max': store.filters.maxPrice,
-            }
-          })
 
-          // Optional: Listen for updates and handle values
-          priceFilterRangeSlider.value.noUiSlider.on('update', (values, handle) => {
-            console.log(values);
-          });
-
-          priceFilterRangeSlider.value.noUiSlider.on('change', (values, handle) => {
-            console.log('CHANGE!!!', values);
-          });
-        } else {
-          console.error("Slider element not found!")
-        }
-    });
+      storeIsReady.value = true;
+    })
+      // .then(data => {
+      
+      // addSlider(priceFilterRangeSlider, {
+      //   start: [store.filters.minPriceCurrent, store.filters.maxPriceCurrent], // Initial values for handles
+      //   connect: true, // Connect the handles with a bar
+      //   range: {
+      //     'min': store.filters.minPrice,
+      //     'max': store.filters.maxPrice,
+      //   }
+      // });
+      // });
 })
 </script>
 
@@ -106,7 +124,14 @@ onMounted(() => {
     </div>
     <div class="apartments__filter">
       Фильтры
-      <div ref="priceFilterRangeSlider"></div>
+      <RangeSlider
+        v-if="storeIsReady"
+        :range-min="store.filters.minPrice"
+        :range-max="store.filters.maxPrice"
+        :start-min="store.filters.minPriceCurrent"
+        :start-max="store.filters.maxPriceCurrent"
+        @change="changePriceCurrent"
+      ></RangeSlider>
     </div>
   </div>
 </template>
