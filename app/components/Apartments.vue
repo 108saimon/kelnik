@@ -126,7 +126,12 @@ onMounted(() => {
       </button>
     </div>
     <div class="apartments__filter">
-      <div>Фильтры</div>
+      <div class="number-of-room__buttons">
+        <div class="number-of-room__button">1к</div>
+        <div class="number-of-room__button">2к</div>
+        <div class="number-of-room__button">3к</div>
+        <div class="number-of-room__button">4к</div>
+      </div>
       <RangeSlider
         v-if="storeIsReady"
         :label="'Стоимость квартиры, ₽'"
