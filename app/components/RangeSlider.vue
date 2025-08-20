@@ -4,6 +4,10 @@ import 'nouislider/dist/nouislider.css';
 import { ref, onMounted, watch } from 'vue';
 
 const props = defineProps({
+  label: {
+    type: String,
+    default: '',
+  },
   rangeMin: {
     type: Number,
     default: 0
@@ -78,7 +82,8 @@ onMounted(() => {
 
 <template>
   <div>
-    <div class="Labels">
+    <div class="filter__label" v-show="props.label.length > -1">{{ props.label }}</div>
+    <div class="values__label">
       от {{ sliderCurrentMin }} до {{ sliderCurrentMax }}
     </div>
     <div ref="sliderRef"></div>

@@ -125,6 +125,7 @@ onMounted(() => {
       <div>Фильтры</div>
       <RangeSlider
         v-if="storeIsReady"
+        :label="'Стоимость квартиры, ₽'"
         :range-min="store.filters.minPrice"
         :range-max="store.filters.maxPrice"
         :start-min="store.filters.minPriceCurrent"
@@ -134,6 +135,7 @@ onMounted(() => {
       ></RangeSlider>
       <RangeSlider
         v-if="storeIsReady"
+        :label="'Площадь, м²'"
         :range-min="store.filters.minArea"
         :range-max="store.filters.maxArea"
         :start-min="store.filters.minAreaCurrent"
