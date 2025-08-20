@@ -85,5 +85,41 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped>
+
+<style>
+.noUi-horizontal .noUi-handle {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  top: 1px;
+  right: -7px;
+  background: #3EB57C;
+  border-color: #3EB57C;
+  box-shadow: none;
+}
+.noUi-connect {
+  height: 3px;
+  background: #3EB57C;
+}
+.noUi-connects {
+  background: #CEDFD5;
+  height: 3px;
+  top: 7px;
+}
+.noUi-handle:before, .noUi-handle:after {
+  display: none;
+}
+.noUi-target {
+  background: transparent;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: none;
+}
+[disabled].noUi-target, [disabled].noUi-handle, [disabled] .noUi-handle {
+  cursor: default;
+}
+[disabled] .noUi-handle, [disabled].noUi-handle {
+  background: #B8B8B8;
+  border-color: #B8B8B8;
+}
 </style>
