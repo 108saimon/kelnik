@@ -46,6 +46,7 @@ async function loadMore() {
   store.currentApartments.push(...newData);
 }
 
+<<<<<<< HEAD
 function changePriceCurrent(values) {
   store.filters.minPriceCurrent = parseFloat(values[0]);
   store.filters.maxPriceCurrent = parseFloat(values[1]);
@@ -54,6 +55,22 @@ function changePriceCurrent(values) {
 }
 
 function changeAreaCurrent(values) {
+=======
+async function changePriceCurrent(values) {
+  store.filters.minPriceCurrent = parseFloat(values[0]);
+  store.filters.maxPriceCurrent = parseFloat(values[1]);
+
+  store.page = 1
+  slidersIsDisabled.value = true
+  await loadData().then(data => {
+    store.currentApartments = [...processApartmentsData(data)];
+    slidersIsDisabled.value = false
+  });
+  
+}
+
+async function changeAreaCurrent(values) {
+>>>>>>> 6760831257a10fc5972f28b0ae3e2d2badb8464e
   store.filters.minAreaCurrent = parseFloat(values[0]);
   store.filters.maxAreaCurrent = parseFloat(values[1]);
 
