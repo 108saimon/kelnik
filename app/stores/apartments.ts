@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia'
 
 interface Apartment {
+  id: string,
   image: 'imageURL',
   floor: number,
   numberOfRooms: number,
