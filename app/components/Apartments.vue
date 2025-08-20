@@ -1,18 +1,8 @@
 <script setup>
-import apartmentsData from '../mock/apartments.json';
 import { useApartmentsStore } from '../stores/apartments';
 import { ref, onMounted } from 'vue';
 
 const store = useApartmentsStore();
-
-// TODO - переделать на fetch
-function fakeFetch(data) {
-  return new Promise(resolve => {
-    setTimeout(() => {
-      resolve({json: () => Promise.resolve(data)});
-    }, 500);
-  });
-}
 
 // TODO - количество комнат
 // получаем данные для фильтра
@@ -33,12 +23,15 @@ function initApartmentsConfig(data) {
 
 // TODO - доработать конец списка
 function processApartmentsData(data) {
-  return data.filter(item =>
+  console.log('processApartmentsData', data);
+  const filterdData = data.filter(item =>
     item.price >= store.filters.minPriceCurrent
     && item.price <= store.filters.maxPriceCurrent
     && item.areaOfTheApartment >= store.filters.minAreaCurrent
     && item.areaOfTheApartment <= store.filters.maxAreaCurrent
   ).slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);
+
+  return filterdData;
 }
 
 function loadMore() {
@@ -53,30 +46,45 @@ function loadMore() {
 function changePriceCurrent(data) {
   store.filters.minPriceCurrent = parseFloat(data[0]);
   store.filters.maxPriceCurrent = parseFloat(data[1]);
-  // slidersIsDisabled.value = true
+
+  store.page = 1
+  store.currentApartments = [...processApartmentsData(store.apartments)];
 }
 
 function changeAreaCurrent(data) {
   store.filters.minAreaCurrent = parseFloat(data[0]);
   store.filters.maxAreaCurrent = parseFloat(data[1]);
+
+  store.page = 1
+  store.currentApartments = [...processApartmentsData(store.apartments)];
 }
 
 let storeIsReady = ref(false);
 
 let slidersIsDisabled = ref(false)
 
-onMounted(() => {
-  // инициализируем стор
-  fakeFetch(apartmentsData)
-    .then(response => response.json())
-    .then(json => {
-      initApartmentsConfig(json);
-      store.setApartments(json);
-      store.setCurrentApartments(processApartmentsData(store.apartments));
-      console.log(store.apartments);
+async function initData() {
+  try {
+    // Файлы из `public/` доступны по корню сайта без префикса `public`
+    const response = await fetch('/apartments_with_id.json');
+    if (!response.ok) {
+      throw new Error(`Ошибка при загрузке данных: ${response.status}`);
+    }
+    const data = await response.json();
+    console.log('fetchData', data);
+    initApartmentsConfig(data);
+    store.setApartments(data);
+    store.setCurrentApartments(processApartmentsData(store.apartments));
+    console.log(store.apartments);
 
-      storeIsReady.value = true;
-    })
+    storeIsReady.value = true;
+  } catch (error) {
+    console.error('Произошла ошибка:', error);
+  }
+}
+
+onMounted(() => {
+  initData();
 })
 </script>
 
@@ -86,7 +94,7 @@ onMounted(() => {
       <h1 class="title">Квартиры</h1>
       <div v-show="store.apartments.length > 0">
         <ul>
-          <li v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}`">
+          <li v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
             {{ 'номер квартиры ' + apartment.apartmentNumber + ' цена квартиры ' + apartment.price + ' площадь квартиры ' + apartment.areaOfTheApartment }}
           </li>
         </ul>

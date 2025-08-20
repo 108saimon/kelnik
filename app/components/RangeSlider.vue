@@ -68,6 +68,7 @@ onMounted(() => {
 
     sliderRef.value.noUiSlider.on('change', (values, handle) => {
       emit('change', values)
+      console.log('CHANGE', values);
     });
   } else {
     console.error("Slider element not found!")
