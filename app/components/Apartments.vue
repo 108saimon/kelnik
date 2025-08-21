@@ -36,14 +36,16 @@ function processApartmentsData(data) {
     filterdData.sort((a, b) => a[store.sort.type] - b[store.sort.type])
     : filterdData.sort((a, b) => b[store.sort.type] - a[store.sort.type]);
 
+  const chankedData = sortedData.slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);
+
   // скрываем кнопку "загрузить ещё по необходимости"
-  if (sortedData.length < 20) {
+  if (chankedData.length < 20) {
     showLoadMore.value = false;
   } else {
     showLoadMore.value = true;
   }
 
-  return sortedData.slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);;
+  return chankedData;
 }
 
 const priceSliderRef = ref(null);

@@ -70,7 +70,6 @@ div {
 
 .container {
   width: 1440px;
-  background-color: blue;
   padding: 96px 80px;
   display: flex;
 }
