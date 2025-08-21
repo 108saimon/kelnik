@@ -183,9 +183,21 @@ onBeforeUnmount(() => {
     <div class="apartments-list__container">
       <h1 class="apartments-list__title">Квартиры</h1>
       <div class="apartments-sort__buttons">
-        <div class="apartments-sort__button" @click="sortBy('areaOfTheApartment')">S, м²</div>
-        <div class="apartments-sort__button" @click="sortBy('floor')">Этаж</div>
-        <div class="apartments-sort__button" @click="sortBy('price')">Цена, ₽</div>
+        <div class="apartments-sort__button"
+          :class="{ 'apartments-sort__button-active': store.sort.type === 'areaOfTheApartment' }"
+          @click="sortBy('areaOfTheApartment')">
+          S, м²<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'areaOfTheApartment', 'order-asc': store.sort.order === 'asc', 'order-desc': store.sort.order === 'desc' }]"></div>
+        </div>
+        <div class="apartments-sort__button"
+          :class="{ 'apartments-sort__button-active': store.sort.type === 'floor' }"
+          @click="sortBy('floor')">
+          Этаж<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'floor', 'order-asc': store.sort.order === 'asc', 'order-desc': store.sort.order === 'desc' }]"></div>
+        </div>
+        <div class="apartments-sort__button"
+          :class="{ 'apartments-sort__button-active': store.sort.type === 'price' }"
+          @click="sortBy('price')">
+          Цена, ₽<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'price', 'order-asc': store.sort.order === 'asc', 'order-desc': store.sort.order === 'desc' }]"></div>
+        </div>
       </div>
       <div v-show="store.apartments.length > 0">
         <ul>
@@ -249,7 +261,40 @@ onBeforeUnmount(() => {
 .apartments-list__title {
   font-size: 54px;
   font-family: 'PTRootUIWebBold', sans-serif;
+  margin-bottom: 24px;
 }
+
+.apartments-sort__buttons {
+  display: flex;
+  margin-bottom: 12px;
+}
+.apartments-sort__button {
+  margin-right: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.apartments-sort__icon {
+  background-image: url('arrows.svg');
+  display: inline-block;
+  width: 6.86px;
+  height: 10px;
+  margin-left: 8px;
+  background-repeat: no-repeat;
+}
+.apartments-sort__button-active {
+  color: #3EB57C;
+}
+.apartments-sort__icon_active {
+  background-image: url('arrows_active.svg');
+  background-repeat: no-repeat;
+}
+.order-asc {
+  transform: rotate(0deg);
+}
+.order-desc {
+  transform: rotate(180deg);
+}
+
 .apartments__filter {
   width: 318px;
   height: 318px;
