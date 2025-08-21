@@ -59,6 +59,14 @@ onMounted(() => {
       range: {
         'min': props.rangeMin,
         'max': props.rangeMax,
+      },
+      format: {
+        to: function (value) {
+          return Math.floor(value);
+        },
+        from: function (value) {
+          return Number(value);
+        }
       }
     })
 
@@ -69,8 +77,10 @@ onMounted(() => {
     }
 
     sliderRef.value.noUiSlider.on('update', (values, handle) => {
-      sliderCurrentMin.value = addSpaces(parseFloat(values[0]));
-      sliderCurrentMax.value = addSpaces(parseFloat(values[1]));
+      // sliderCurrentMin.value = addSpaces(parseFloat(values[0]));
+      // sliderCurrentMax.value = addSpaces(parseFloat(values[1]));
+      sliderCurrentMin.value = values[0];
+      sliderCurrentMax.value = values[1];
     });
 
     sliderRef.value.noUiSlider.on('change', (values, handle) => {
@@ -83,7 +93,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <div class="filter-container">
     <div class="filter__label" v-show="props.label.length > -1">{{ props.label }}</div>
     <div class="values__label">
       <div class="values__item">от<span class="values__strong-text">{{ sliderCurrentMin }}</span></div>
@@ -95,6 +105,9 @@ onMounted(() => {
 
 
 <style>
+.filter-container {
+  margin-bottom: 24px;
+}
 .filter__label {
   font-size: 13px;
   line-height: 18px;
@@ -102,6 +115,7 @@ onMounted(() => {
 }
 .values__label {
   display: flex;
+  margin-bottom: 6px;
 }
 .values__item {
   font-size: 14px;

@@ -52,6 +52,7 @@ function resetFilters() {
   store.filters.maxArea = store.filters.maxAreaCurrent;
   store.filters.minArea = store.filters.minAreaCurrent;
   store.filters.numberOfRooms = [1,2,3,4];
+  console.log('wtf');
   onFilterChange();
 }
 
@@ -224,7 +225,7 @@ onBeforeUnmount(() => {
         @change="changeAreaCurrent"
       ></RangeSlider>
       <div class="reset-filters" @click="resetFilters">
-        Сбросить параметры
+        Сбросить параметры<div class="reset-filters__icon"></div>
       </div>
     </div>
     <div class="scroll-top__button"
@@ -253,10 +254,12 @@ onBeforeUnmount(() => {
   position: relative;
   width: 240px;
 }
+
 .number-of-room__buttons {
   display: flex;
   width: 224px;
   height: 44px;
+  margin-bottom: 24px;
 }
 .number-of-room__button {
   width: 44px;
@@ -280,6 +283,21 @@ onBeforeUnmount(() => {
   background: #3EB57C;
   color: #fff;
 }
+
+.reset-filters {
+  font-size: 13px;
+  cursor: pointer;
+}
+.reset-filters__icon {
+  width: 8px;
+  height: 8px;
+  background-image: url('cross mini.svg');
+  display: inline-block;
+  margin-left: 8px;
+  position: relative;
+  top: -1px;
+}
+
 .scroll-top__button {
   width: 40px;
   height: 40px;
