@@ -1,6 +1,6 @@
 <script setup>
 import { useApartmentsStore } from '../stores/apartments';
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const store = useApartmentsStore();
 
