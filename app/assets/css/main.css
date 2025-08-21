@@ -78,7 +78,7 @@ div {
   .container {
     min-width: 960px;
     width: 100%;
-    background-color: red;
+    background-color: #fff;
     padding: 48px 52px 48px 52px;
   }
 }

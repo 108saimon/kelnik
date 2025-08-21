@@ -79,9 +79,13 @@ function changeNumberOfRooms(value) {
   onFilterChange();
 }
 
-// TODO - добавить возрастание и убываение
 function sortBy(type) {
   store.sort.type = type;
+  if (store.sort.order === 'asc') {
+    store.sort.order = 'desc';
+  } else {
+    store.sort.order = 'asc';
+  }
   onFilterChange();
 }
 
@@ -193,7 +197,7 @@ onMounted(() => {
 }
 .apartments__filter {
   width: 318px;
-  background-image: linear-gradient(to right, #AEE4B2, #95D0A1);
+  background: linear-gradient(135deg, rgba(174, 228, 178, 0.3) 0%, rgba(149, 208, 161, 0.3) 100%);
   padding: 20px;
   border-radius: 20px;
 }
