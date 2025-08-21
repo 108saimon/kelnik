@@ -1,6 +1,6 @@
 [
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 1,
     "apartmentNumber": 1,
@@ -9,7 +9,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 2,
     "apartmentNumber": 2,
@@ -18,7 +18,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 3,
     "apartmentNumber": 3,
@@ -27,7 +27,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 4,
     "apartmentNumber": 4,
@@ -36,7 +36,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 1,
     "apartmentNumber": 5,
@@ -45,7 +45,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 2,
     "apartmentNumber": 6,
@@ -54,7 +54,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 3,
     "apartmentNumber": 7,
@@ -63,7 +63,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 4,
     "apartmentNumber": 8,
@@ -72,7 +72,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 1,
     "apartmentNumber": 9,
@@ -81,7 +81,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 2,
     "apartmentNumber": 10,
@@ -90,7 +90,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 3,
     "apartmentNumber": 11,
@@ -99,7 +99,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 4,
     "apartmentNumber": 12,
@@ -108,7 +108,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 1,
     "apartmentNumber": 13,
@@ -117,7 +117,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 2,
     "apartmentNumber": 14,
@@ -126,7 +126,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 3,
     "apartmentNumber": 15,
@@ -135,7 +135,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 4,
     "apartmentNumber": 16,
@@ -144,7 +144,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 1,
     "apartmentNumber": 17,
@@ -153,7 +153,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 2,
     "apartmentNumber": 18,
@@ -162,7 +162,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 3,
     "apartmentNumber": 19,
@@ -171,7 +171,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 4,
     "apartmentNumber": 20,
@@ -180,7 +180,7 @@
     "maxFloor": 5
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 1,
     "apartmentNumber": 1,
@@ -189,7 +189,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 2,
     "apartmentNumber": 2,
@@ -198,7 +198,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 3,
     "apartmentNumber": 3,
@@ -207,7 +207,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 4,
     "apartmentNumber": 4,
@@ -216,7 +216,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 1,
     "apartmentNumber": 5,
@@ -225,7 +225,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 2,
     "apartmentNumber": 6,
@@ -234,7 +234,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 3,
     "apartmentNumber": 7,
@@ -243,7 +243,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 4,
     "apartmentNumber": 8,
@@ -252,7 +252,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 1,
     "apartmentNumber": 9,
@@ -261,7 +261,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 2,
     "apartmentNumber": 10,
@@ -270,7 +270,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 3,
     "apartmentNumber": 11,
@@ -279,7 +279,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 4,
     "apartmentNumber": 12,
@@ -288,7 +288,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 1,
     "apartmentNumber": 13,
@@ -297,7 +297,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 2,
     "apartmentNumber": 14,
@@ -306,7 +306,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 3,
     "apartmentNumber": 15,
@@ -315,7 +315,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 4,
     "apartmentNumber": 16,
@@ -324,7 +324,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 1,
     "apartmentNumber": 17,
@@ -333,7 +333,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 2,
     "apartmentNumber": 18,
@@ -342,7 +342,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 3,
     "apartmentNumber": 19,
@@ -351,7 +351,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 4,
     "apartmentNumber": 20,
@@ -360,7 +360,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 1,
     "apartmentNumber": 21,
@@ -369,7 +369,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 2,
     "apartmentNumber": 22,
@@ -378,7 +378,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 3,
     "apartmentNumber": 23,
@@ -387,7 +387,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 4,
     "apartmentNumber": 24,
@@ -396,7 +396,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 1,
     "apartmentNumber": 25,
@@ -405,7 +405,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 2,
     "apartmentNumber": 26,
@@ -414,7 +414,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 3,
     "apartmentNumber": 27,
@@ -423,7 +423,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 4,
     "apartmentNumber": 28,
@@ -432,7 +432,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 1,
     "apartmentNumber": 29,
@@ -441,7 +441,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 2,
     "apartmentNumber": 30,
@@ -450,7 +450,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 3,
     "apartmentNumber": 31,
@@ -459,7 +459,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 4,
     "apartmentNumber": 32,
@@ -468,7 +468,7 @@
     "maxFloor": 8
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 1,
     "apartmentNumber": 1,
@@ -477,7 +477,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 2,
     "apartmentNumber": 2,
@@ -486,7 +486,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 3,
     "apartmentNumber": 3,
@@ -495,7 +495,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 4,
     "apartmentNumber": 4,
@@ -504,7 +504,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 1,
     "apartmentNumber": 5,
@@ -513,7 +513,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 2,
     "apartmentNumber": 6,
@@ -522,7 +522,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 3,
     "apartmentNumber": 7,
@@ -531,7 +531,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 4,
     "apartmentNumber": 8,
@@ -540,7 +540,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 1,
     "apartmentNumber": 9,
@@ -549,7 +549,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 2,
     "apartmentNumber": 10,
@@ -558,7 +558,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 3,
     "apartmentNumber": 11,
@@ -567,7 +567,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 4,
     "apartmentNumber": 12,
@@ -576,7 +576,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 1,
     "apartmentNumber": 13,
@@ -585,7 +585,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 2,
     "apartmentNumber": 14,
@@ -594,7 +594,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 3,
     "apartmentNumber": 15,
@@ -603,7 +603,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 4,
     "apartmentNumber": 16,
@@ -612,7 +612,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 1,
     "apartmentNumber": 17,
@@ -621,7 +621,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 2,
     "apartmentNumber": 18,
@@ -630,7 +630,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 3,
     "apartmentNumber": 19,
@@ -639,7 +639,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 4,
     "apartmentNumber": 20,
@@ -648,7 +648,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 1,
     "apartmentNumber": 21,
@@ -657,7 +657,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 2,
     "apartmentNumber": 22,
@@ -666,7 +666,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 3,
     "apartmentNumber": 23,
@@ -675,7 +675,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 4,
     "apartmentNumber": 24,
@@ -684,7 +684,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 1,
     "apartmentNumber": 25,
@@ -693,7 +693,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 2,
     "apartmentNumber": 26,
@@ -702,7 +702,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 3,
     "apartmentNumber": 27,
@@ -711,7 +711,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 4,
     "apartmentNumber": 28,
@@ -720,7 +720,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 1,
     "apartmentNumber": 29,
@@ -729,7 +729,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 2,
     "apartmentNumber": 30,
@@ -738,7 +738,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 3,
     "apartmentNumber": 31,
@@ -747,7 +747,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 4,
     "apartmentNumber": 32,
@@ -756,7 +756,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 1,
     "apartmentNumber": 33,
@@ -765,7 +765,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 2,
     "apartmentNumber": 34,
@@ -774,7 +774,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 3,
     "apartmentNumber": 35,
@@ -783,7 +783,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 4,
     "apartmentNumber": 36,
@@ -792,7 +792,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 1,
     "apartmentNumber": 37,
@@ -801,7 +801,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 2,
     "apartmentNumber": 38,
@@ -810,7 +810,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 3,
     "apartmentNumber": 39,
@@ -819,7 +819,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 4,
     "apartmentNumber": 40,
@@ -828,7 +828,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 1,
     "apartmentNumber": 41,
@@ -837,7 +837,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 2,
     "apartmentNumber": 42,
@@ -846,7 +846,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 3,
     "apartmentNumber": 43,
@@ -855,7 +855,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 4,
     "apartmentNumber": 44,
@@ -864,7 +864,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 1,
     "apartmentNumber": 45,
@@ -873,7 +873,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 2,
     "apartmentNumber": 46,
@@ -882,7 +882,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 3,
     "apartmentNumber": 47,
@@ -891,7 +891,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 4,
     "apartmentNumber": 48,
@@ -900,7 +900,7 @@
     "maxFloor": 12
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 1,
     "apartmentNumber": 1,
@@ -909,7 +909,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 2,
     "apartmentNumber": 2,
@@ -918,7 +918,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 3,
     "apartmentNumber": 3,
@@ -927,7 +927,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 4,
     "apartmentNumber": 4,
@@ -936,7 +936,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 1,
     "apartmentNumber": 5,
@@ -945,7 +945,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 2,
     "apartmentNumber": 6,
@@ -954,7 +954,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 3,
     "apartmentNumber": 7,
@@ -963,7 +963,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 4,
     "apartmentNumber": 8,
@@ -972,7 +972,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 1,
     "apartmentNumber": 9,
@@ -981,7 +981,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 2,
     "apartmentNumber": 10,
@@ -990,7 +990,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 3,
     "apartmentNumber": 11,
@@ -999,7 +999,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 4,
     "apartmentNumber": 12,
@@ -1008,7 +1008,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 1,
     "apartmentNumber": 13,
@@ -1017,7 +1017,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 2,
     "apartmentNumber": 14,
@@ -1026,7 +1026,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 3,
     "apartmentNumber": 15,
@@ -1035,7 +1035,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 4,
     "apartmentNumber": 16,
@@ -1044,7 +1044,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 1,
     "apartmentNumber": 17,
@@ -1053,7 +1053,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 2,
     "apartmentNumber": 18,
@@ -1062,7 +1062,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 3,
     "apartmentNumber": 19,
@@ -1071,7 +1071,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 4,
     "apartmentNumber": 20,
@@ -1080,7 +1080,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 1,
     "apartmentNumber": 21,
@@ -1089,7 +1089,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 2,
     "apartmentNumber": 22,
@@ -1098,7 +1098,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 3,
     "apartmentNumber": 23,
@@ -1107,7 +1107,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 4,
     "apartmentNumber": 24,
@@ -1116,7 +1116,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 1,
     "apartmentNumber": 25,
@@ -1125,7 +1125,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 2,
     "apartmentNumber": 26,
@@ -1134,7 +1134,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 3,
     "apartmentNumber": 27,
@@ -1143,7 +1143,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 4,
     "apartmentNumber": 28,
@@ -1152,7 +1152,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 1,
     "apartmentNumber": 29,
@@ -1161,7 +1161,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 2,
     "apartmentNumber": 30,
@@ -1170,7 +1170,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 3,
     "apartmentNumber": 31,
@@ -1179,7 +1179,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 4,
     "apartmentNumber": 32,
@@ -1188,7 +1188,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 1,
     "apartmentNumber": 33,
@@ -1197,7 +1197,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 2,
     "apartmentNumber": 34,
@@ -1206,7 +1206,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 3,
     "apartmentNumber": 35,
@@ -1215,7 +1215,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 4,
     "apartmentNumber": 36,
@@ -1224,7 +1224,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 1,
     "apartmentNumber": 37,
@@ -1233,7 +1233,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 2,
     "apartmentNumber": 38,
@@ -1242,7 +1242,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 3,
     "apartmentNumber": 39,
@@ -1251,7 +1251,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 4,
     "apartmentNumber": 40,
@@ -1260,7 +1260,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 1,
     "apartmentNumber": 41,
@@ -1269,7 +1269,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 2,
     "apartmentNumber": 42,
@@ -1278,7 +1278,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 3,
     "apartmentNumber": 43,
@@ -1287,7 +1287,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 4,
     "apartmentNumber": 44,
@@ -1296,7 +1296,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 1,
     "apartmentNumber": 45,
@@ -1305,7 +1305,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 2,
     "apartmentNumber": 46,
@@ -1314,7 +1314,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 3,
     "apartmentNumber": 47,
@@ -1323,7 +1323,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 4,
     "apartmentNumber": 48,
@@ -1332,7 +1332,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 1,
     "apartmentNumber": 49,
@@ -1341,7 +1341,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 2,
     "apartmentNumber": 50,
@@ -1350,7 +1350,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 3,
     "apartmentNumber": 51,
@@ -1359,7 +1359,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 4,
     "apartmentNumber": 52,
@@ -1368,7 +1368,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 1,
     "apartmentNumber": 53,
@@ -1377,7 +1377,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 2,
     "apartmentNumber": 54,
@@ -1386,7 +1386,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 3,
     "apartmentNumber": 55,
@@ -1395,7 +1395,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 4,
     "apartmentNumber": 56,
@@ -1404,7 +1404,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 1,
     "apartmentNumber": 57,
@@ -1413,7 +1413,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 2,
     "apartmentNumber": 58,
@@ -1422,7 +1422,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 3,
     "apartmentNumber": 59,
@@ -1431,7 +1431,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 4,
     "apartmentNumber": 60,
@@ -1440,7 +1440,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 1,
     "apartmentNumber": 61,
@@ -1449,7 +1449,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 2,
     "apartmentNumber": 62,
@@ -1458,7 +1458,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 3,
     "apartmentNumber": 63,
@@ -1467,7 +1467,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 4,
     "apartmentNumber": 64,
@@ -1476,7 +1476,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 1,
     "apartmentNumber": 65,
@@ -1485,7 +1485,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 2,
     "apartmentNumber": 66,
@@ -1494,7 +1494,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 3,
     "apartmentNumber": 67,
@@ -1503,7 +1503,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 4,
     "apartmentNumber": 68,
@@ -1512,7 +1512,7 @@
     "maxFloor": 17
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 1,
     "apartmentNumber": 1,
@@ -1521,7 +1521,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 2,
     "apartmentNumber": 2,
@@ -1530,7 +1530,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 3,
     "apartmentNumber": 3,
@@ -1539,7 +1539,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 4,
     "apartmentNumber": 4,
@@ -1548,7 +1548,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 1,
     "apartmentNumber": 5,
@@ -1557,7 +1557,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 2,
     "apartmentNumber": 6,
@@ -1566,7 +1566,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 3,
     "apartmentNumber": 7,
@@ -1575,7 +1575,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 4,
     "apartmentNumber": 8,
@@ -1584,7 +1584,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 1,
     "apartmentNumber": 9,
@@ -1593,7 +1593,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 2,
     "apartmentNumber": 10,
@@ -1602,7 +1602,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 3,
     "apartmentNumber": 11,
@@ -1611,7 +1611,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 4,
     "apartmentNumber": 12,
@@ -1620,7 +1620,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 1,
     "apartmentNumber": 13,
@@ -1629,7 +1629,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 2,
     "apartmentNumber": 14,
@@ -1638,7 +1638,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 3,
     "apartmentNumber": 15,
@@ -1647,7 +1647,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 4,
     "apartmentNumber": 16,
@@ -1656,7 +1656,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 1,
     "apartmentNumber": 17,
@@ -1665,7 +1665,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 2,
     "apartmentNumber": 18,
@@ -1674,7 +1674,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 3,
     "apartmentNumber": 19,
@@ -1683,7 +1683,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 4,
     "apartmentNumber": 20,
@@ -1692,7 +1692,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 1,
     "apartmentNumber": 21,
@@ -1701,7 +1701,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 2,
     "apartmentNumber": 22,
@@ -1710,7 +1710,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 3,
     "apartmentNumber": 23,
@@ -1719,7 +1719,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 4,
     "apartmentNumber": 24,
@@ -1728,7 +1728,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 1,
     "apartmentNumber": 25,
@@ -1737,7 +1737,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 2,
     "apartmentNumber": 26,
@@ -1746,7 +1746,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 3,
     "apartmentNumber": 27,
@@ -1755,7 +1755,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 4,
     "apartmentNumber": 28,
@@ -1764,7 +1764,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 1,
     "apartmentNumber": 29,
@@ -1773,7 +1773,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 2,
     "apartmentNumber": 30,
@@ -1782,7 +1782,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 3,
     "apartmentNumber": 31,
@@ -1791,7 +1791,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 4,
     "apartmentNumber": 32,
@@ -1800,7 +1800,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 1,
     "apartmentNumber": 33,
@@ -1809,7 +1809,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 2,
     "apartmentNumber": 34,
@@ -1818,7 +1818,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 3,
     "apartmentNumber": 35,
@@ -1827,7 +1827,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 4,
     "apartmentNumber": 36,
@@ -1836,7 +1836,7 @@
     "maxFloor": 9
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 1,
     "apartmentNumber": 1,
@@ -1845,7 +1845,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 2,
     "apartmentNumber": 2,
@@ -1854,7 +1854,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 3,
     "apartmentNumber": 3,
@@ -1863,7 +1863,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 4,
     "apartmentNumber": 4,
@@ -1872,7 +1872,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 1,
     "apartmentNumber": 5,
@@ -1881,7 +1881,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 2,
     "apartmentNumber": 6,
@@ -1890,7 +1890,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 3,
     "apartmentNumber": 7,
@@ -1899,7 +1899,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 4,
     "apartmentNumber": 8,
@@ -1908,7 +1908,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 1,
     "apartmentNumber": 9,
@@ -1917,7 +1917,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 2,
     "apartmentNumber": 10,
@@ -1926,7 +1926,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 3,
     "apartmentNumber": 11,
@@ -1935,7 +1935,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 4,
     "apartmentNumber": 12,
@@ -1944,7 +1944,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 1,
     "apartmentNumber": 13,
@@ -1953,7 +1953,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 2,
     "apartmentNumber": 14,
@@ -1962,7 +1962,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 3,
     "apartmentNumber": 15,
@@ -1971,7 +1971,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 4,
     "apartmentNumber": 16,
@@ -1980,7 +1980,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 1,
     "apartmentNumber": 17,
@@ -1989,7 +1989,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 2,
     "apartmentNumber": 18,
@@ -1998,7 +1998,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 3,
     "apartmentNumber": 19,
@@ -2007,7 +2007,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 4,
     "apartmentNumber": 20,
@@ -2016,7 +2016,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 1,
     "apartmentNumber": 21,
@@ -2025,7 +2025,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 2,
     "apartmentNumber": 22,
@@ -2034,7 +2034,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 3,
     "apartmentNumber": 23,
@@ -2043,7 +2043,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 4,
     "apartmentNumber": 24,
@@ -2052,7 +2052,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 1,
     "apartmentNumber": 25,
@@ -2061,7 +2061,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 2,
     "apartmentNumber": 26,
@@ -2070,7 +2070,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 3,
     "apartmentNumber": 27,
@@ -2079,7 +2079,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 4,
     "apartmentNumber": 28,
@@ -2088,7 +2088,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 1,
     "apartmentNumber": 29,
@@ -2097,7 +2097,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 2,
     "apartmentNumber": 30,
@@ -2106,7 +2106,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 3,
     "apartmentNumber": 31,
@@ -2115,7 +2115,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 4,
     "apartmentNumber": 32,
@@ -2124,7 +2124,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 1,
     "apartmentNumber": 33,
@@ -2133,7 +2133,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 2,
     "apartmentNumber": 34,
@@ -2142,7 +2142,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 3,
     "apartmentNumber": 35,
@@ -2151,7 +2151,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 4,
     "apartmentNumber": 36,
@@ -2160,7 +2160,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 1,
     "apartmentNumber": 37,
@@ -2169,7 +2169,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 2,
     "apartmentNumber": 38,
@@ -2178,7 +2178,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 3,
     "apartmentNumber": 39,
@@ -2187,7 +2187,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 4,
     "apartmentNumber": 40,
@@ -2196,7 +2196,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 1,
     "apartmentNumber": 41,
@@ -2205,7 +2205,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 2,
     "apartmentNumber": 42,
@@ -2214,7 +2214,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 3,
     "apartmentNumber": 43,
@@ -2223,7 +2223,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 4,
     "apartmentNumber": 44,
@@ -2232,7 +2232,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 1,
     "apartmentNumber": 45,
@@ -2241,7 +2241,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 2,
     "apartmentNumber": 46,
@@ -2250,7 +2250,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 3,
     "apartmentNumber": 47,
@@ -2259,7 +2259,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 4,
     "apartmentNumber": 48,
@@ -2268,7 +2268,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 1,
     "apartmentNumber": 49,
@@ -2277,7 +2277,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 2,
     "apartmentNumber": 50,
@@ -2286,7 +2286,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 3,
     "apartmentNumber": 51,
@@ -2295,7 +2295,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 4,
     "apartmentNumber": 52,
@@ -2304,7 +2304,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 1,
     "apartmentNumber": 53,
@@ -2313,7 +2313,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 2,
     "apartmentNumber": 54,
@@ -2322,7 +2322,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 3,
     "apartmentNumber": 55,
@@ -2331,7 +2331,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 4,
     "apartmentNumber": 56,
@@ -2340,7 +2340,7 @@
     "maxFloor": 14
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 1,
     "apartmentNumber": 1,
@@ -2349,7 +2349,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 2,
     "apartmentNumber": 2,
@@ -2358,7 +2358,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 3,
     "apartmentNumber": 3,
@@ -2367,7 +2367,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 4,
     "apartmentNumber": 4,
@@ -2376,7 +2376,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 1,
     "apartmentNumber": 5,
@@ -2385,7 +2385,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 2,
     "apartmentNumber": 6,
@@ -2394,7 +2394,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 3,
     "apartmentNumber": 7,
@@ -2403,7 +2403,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 4,
     "apartmentNumber": 8,
@@ -2412,7 +2412,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 1,
     "apartmentNumber": 9,
@@ -2421,7 +2421,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 2,
     "apartmentNumber": 10,
@@ -2430,7 +2430,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 3,
     "apartmentNumber": 11,
@@ -2439,7 +2439,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 4,
     "apartmentNumber": 12,
@@ -2448,7 +2448,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 1,
     "apartmentNumber": 13,
@@ -2457,7 +2457,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 2,
     "apartmentNumber": 14,
@@ -2466,7 +2466,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 3,
     "apartmentNumber": 15,
@@ -2475,7 +2475,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 4,
     "apartmentNumber": 16,
@@ -2484,7 +2484,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 1,
     "apartmentNumber": 17,
@@ -2493,7 +2493,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 2,
     "apartmentNumber": 18,
@@ -2502,7 +2502,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 3,
     "apartmentNumber": 19,
@@ -2511,7 +2511,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 4,
     "apartmentNumber": 20,
@@ -2520,7 +2520,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 1,
     "apartmentNumber": 21,
@@ -2529,7 +2529,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 2,
     "apartmentNumber": 22,
@@ -2538,7 +2538,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 3,
     "apartmentNumber": 23,
@@ -2547,7 +2547,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 4,
     "apartmentNumber": 24,
@@ -2556,7 +2556,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 1,
     "apartmentNumber": 25,
@@ -2565,7 +2565,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 2,
     "apartmentNumber": 26,
@@ -2574,7 +2574,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 3,
     "apartmentNumber": 27,
@@ -2583,7 +2583,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 4,
     "apartmentNumber": 28,
@@ -2592,7 +2592,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 1,
     "apartmentNumber": 29,
@@ -2601,7 +2601,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 2,
     "apartmentNumber": 30,
@@ -2610,7 +2610,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 3,
     "apartmentNumber": 31,
@@ -2619,7 +2619,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 4,
     "apartmentNumber": 32,
@@ -2628,7 +2628,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 1,
     "apartmentNumber": 33,
@@ -2637,7 +2637,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 2,
     "apartmentNumber": 34,
@@ -2646,7 +2646,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 3,
     "apartmentNumber": 35,
@@ -2655,7 +2655,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 4,
     "apartmentNumber": 36,
@@ -2664,7 +2664,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 1,
     "apartmentNumber": 37,
@@ -2673,7 +2673,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 2,
     "apartmentNumber": 38,
@@ -2682,7 +2682,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 3,
     "apartmentNumber": 39,
@@ -2691,7 +2691,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 4,
     "apartmentNumber": 40,
@@ -2700,7 +2700,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 1,
     "apartmentNumber": 41,
@@ -2709,7 +2709,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 2,
     "apartmentNumber": 42,
@@ -2718,7 +2718,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 3,
     "apartmentNumber": 43,
@@ -2727,7 +2727,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 4,
     "apartmentNumber": 44,
@@ -2736,7 +2736,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 1,
     "apartmentNumber": 45,
@@ -2745,7 +2745,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 2,
     "apartmentNumber": 46,
@@ -2754,7 +2754,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 3,
     "apartmentNumber": 47,
@@ -2763,7 +2763,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 4,
     "apartmentNumber": 48,
@@ -2772,7 +2772,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 1,
     "apartmentNumber": 49,
@@ -2781,7 +2781,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 2,
     "apartmentNumber": 50,
@@ -2790,7 +2790,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 3,
     "apartmentNumber": 51,
@@ -2799,7 +2799,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 4,
     "apartmentNumber": 52,
@@ -2808,7 +2808,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 1,
     "apartmentNumber": 53,
@@ -2817,7 +2817,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 2,
     "apartmentNumber": 54,
@@ -2826,7 +2826,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 3,
     "apartmentNumber": 55,
@@ -2835,7 +2835,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 4,
     "apartmentNumber": 56,
@@ -2844,7 +2844,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 1,
     "apartmentNumber": 57,
@@ -2853,7 +2853,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 2,
     "apartmentNumber": 58,
@@ -2862,7 +2862,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 3,
     "apartmentNumber": 59,
@@ -2871,7 +2871,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 4,
     "apartmentNumber": 60,
@@ -2880,7 +2880,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 1,
     "apartmentNumber": 61,
@@ -2889,7 +2889,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 2,
     "apartmentNumber": 62,
@@ -2898,7 +2898,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 3,
     "apartmentNumber": 63,
@@ -2907,7 +2907,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 4,
     "apartmentNumber": 64,
@@ -2916,7 +2916,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 1,
     "apartmentNumber": 65,
@@ -2925,7 +2925,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 2,
     "apartmentNumber": 66,
@@ -2934,7 +2934,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 3,
     "apartmentNumber": 67,
@@ -2943,7 +2943,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 4,
     "apartmentNumber": 68,
@@ -2952,7 +2952,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 18,
     "numberOfRooms": 1,
     "apartmentNumber": 69,
@@ -2961,7 +2961,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 18,
     "numberOfRooms": 2,
     "apartmentNumber": 70,
@@ -2970,7 +2970,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 18,
     "numberOfRooms": 3,
     "apartmentNumber": 71,
@@ -2979,7 +2979,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 18,
     "numberOfRooms": 4,
     "apartmentNumber": 72,
@@ -2988,7 +2988,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 19,
     "numberOfRooms": 1,
     "apartmentNumber": 73,
@@ -2997,7 +2997,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 19,
     "numberOfRooms": 2,
     "apartmentNumber": 74,
@@ -3006,7 +3006,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 19,
     "numberOfRooms": 3,
     "apartmentNumber": 75,
@@ -3015,7 +3015,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 19,
     "numberOfRooms": 4,
     "apartmentNumber": 76,
@@ -3024,7 +3024,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 20,
     "numberOfRooms": 1,
     "apartmentNumber": 77,
@@ -3033,7 +3033,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 20,
     "numberOfRooms": 2,
     "apartmentNumber": 78,
@@ -3042,7 +3042,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 20,
     "numberOfRooms": 3,
     "apartmentNumber": 79,
@@ -3051,7 +3051,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 20,
     "numberOfRooms": 4,
     "apartmentNumber": 80,
@@ -3060,7 +3060,7 @@
     "maxFloor": 20
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 1,
     "apartmentNumber": 1,
@@ -3069,7 +3069,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 2,
     "apartmentNumber": 2,
@@ -3078,7 +3078,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 3,
     "apartmentNumber": 3,
@@ -3087,7 +3087,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 1,
     "numberOfRooms": 4,
     "apartmentNumber": 4,
@@ -3096,7 +3096,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 1,
     "apartmentNumber": 5,
@@ -3105,7 +3105,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 2,
     "apartmentNumber": 6,
@@ -3114,7 +3114,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 3,
     "apartmentNumber": 7,
@@ -3123,7 +3123,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 2,
     "numberOfRooms": 4,
     "apartmentNumber": 8,
@@ -3132,7 +3132,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 1,
     "apartmentNumber": 9,
@@ -3141,7 +3141,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 2,
     "apartmentNumber": 10,
@@ -3150,7 +3150,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 3,
     "apartmentNumber": 11,
@@ -3159,7 +3159,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 3,
     "numberOfRooms": 4,
     "apartmentNumber": 12,
@@ -3168,7 +3168,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 1,
     "apartmentNumber": 13,
@@ -3177,7 +3177,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 2,
     "apartmentNumber": 14,
@@ -3186,7 +3186,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 3,
     "apartmentNumber": 15,
@@ -3195,7 +3195,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 4,
     "numberOfRooms": 4,
     "apartmentNumber": 16,
@@ -3204,7 +3204,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 1,
     "apartmentNumber": 17,
@@ -3213,7 +3213,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 2,
     "apartmentNumber": 18,
@@ -3222,7 +3222,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 3,
     "apartmentNumber": 19,
@@ -3231,7 +3231,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 5,
     "numberOfRooms": 4,
     "apartmentNumber": 20,
@@ -3240,7 +3240,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 1,
     "apartmentNumber": 21,
@@ -3249,7 +3249,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 2,
     "apartmentNumber": 22,
@@ -3258,7 +3258,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 3,
     "apartmentNumber": 23,
@@ -3267,7 +3267,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 6,
     "numberOfRooms": 4,
     "apartmentNumber": 24,
@@ -3276,7 +3276,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 1,
     "apartmentNumber": 25,
@@ -3285,7 +3285,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 2,
     "apartmentNumber": 26,
@@ -3294,7 +3294,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 3,
     "apartmentNumber": 27,
@@ -3303,7 +3303,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 7,
     "numberOfRooms": 4,
     "apartmentNumber": 28,
@@ -3312,7 +3312,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 1,
     "apartmentNumber": 29,
@@ -3321,7 +3321,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 2,
     "apartmentNumber": 30,
@@ -3330,7 +3330,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 3,
     "apartmentNumber": 31,
@@ -3339,7 +3339,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 8,
     "numberOfRooms": 4,
     "apartmentNumber": 32,
@@ -3348,7 +3348,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 1,
     "apartmentNumber": 33,
@@ -3357,7 +3357,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 2,
     "apartmentNumber": 34,
@@ -3366,7 +3366,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 3,
     "apartmentNumber": 35,
@@ -3375,7 +3375,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 9,
     "numberOfRooms": 4,
     "apartmentNumber": 36,
@@ -3384,7 +3384,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 1,
     "apartmentNumber": 37,
@@ -3393,7 +3393,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 2,
     "apartmentNumber": 38,
@@ -3402,7 +3402,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 3,
     "apartmentNumber": 39,
@@ -3411,7 +3411,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 10,
     "numberOfRooms": 4,
     "apartmentNumber": 40,
@@ -3420,7 +3420,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 1,
     "apartmentNumber": 41,
@@ -3429,7 +3429,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 2,
     "apartmentNumber": 42,
@@ -3438,7 +3438,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 3,
     "apartmentNumber": 43,
@@ -3447,7 +3447,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 11,
     "numberOfRooms": 4,
     "apartmentNumber": 44,
@@ -3456,7 +3456,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 1,
     "apartmentNumber": 45,
@@ -3465,7 +3465,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 2,
     "apartmentNumber": 46,
@@ -3474,7 +3474,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 3,
     "apartmentNumber": 47,
@@ -3483,7 +3483,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 12,
     "numberOfRooms": 4,
     "apartmentNumber": 48,
@@ -3492,7 +3492,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 1,
     "apartmentNumber": 49,
@@ -3501,7 +3501,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 2,
     "apartmentNumber": 50,
@@ -3510,7 +3510,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 3,
     "apartmentNumber": 51,
@@ -3519,7 +3519,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 13,
     "numberOfRooms": 4,
     "apartmentNumber": 52,
@@ -3528,7 +3528,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 1,
     "apartmentNumber": 53,
@@ -3537,7 +3537,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 2,
     "apartmentNumber": 54,
@@ -3546,7 +3546,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 3,
     "apartmentNumber": 55,
@@ -3555,7 +3555,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 14,
     "numberOfRooms": 4,
     "apartmentNumber": 56,
@@ -3564,7 +3564,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 1,
     "apartmentNumber": 57,
@@ -3573,7 +3573,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 2,
     "apartmentNumber": 58,
@@ -3582,7 +3582,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 3,
     "apartmentNumber": 59,
@@ -3591,7 +3591,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 15,
     "numberOfRooms": 4,
     "apartmentNumber": 60,
@@ -3600,7 +3600,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 1,
     "apartmentNumber": 61,
@@ -3609,7 +3609,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 2,
     "apartmentNumber": 62,
@@ -3618,7 +3618,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 3,
     "apartmentNumber": 63,
@@ -3627,7 +3627,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 16,
     "numberOfRooms": 4,
     "apartmentNumber": 64,
@@ -3636,7 +3636,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 1,
     "apartmentNumber": 65,
@@ -3645,7 +3645,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 2,
     "apartmentNumber": 66,
@@ -3654,7 +3654,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 3,
     "apartmentNumber": 67,
@@ -3663,7 +3663,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 17,
     "numberOfRooms": 4,
     "apartmentNumber": 68,
@@ -3672,7 +3672,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 18,
     "numberOfRooms": 1,
     "apartmentNumber": 69,
@@ -3681,7 +3681,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 18,
     "numberOfRooms": 2,
     "apartmentNumber": 70,
@@ -3690,7 +3690,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 18,
     "numberOfRooms": 3,
     "apartmentNumber": 71,
@@ -3699,7 +3699,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 18,
     "numberOfRooms": 4,
     "apartmentNumber": 72,
@@ -3708,7 +3708,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 19,
     "numberOfRooms": 1,
     "apartmentNumber": 73,
@@ -3717,7 +3717,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 19,
     "numberOfRooms": 2,
     "apartmentNumber": 74,
@@ -3726,7 +3726,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 19,
     "numberOfRooms": 3,
     "apartmentNumber": 75,
@@ -3735,7 +3735,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 19,
     "numberOfRooms": 4,
     "apartmentNumber": 76,
@@ -3744,7 +3744,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 20,
     "numberOfRooms": 1,
     "apartmentNumber": 77,
@@ -3753,7 +3753,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 20,
     "numberOfRooms": 2,
     "apartmentNumber": 78,
@@ -3762,7 +3762,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 20,
     "numberOfRooms": 3,
     "apartmentNumber": 79,
@@ -3771,7 +3771,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 20,
     "numberOfRooms": 4,
     "apartmentNumber": 80,
@@ -3780,7 +3780,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 21,
     "numberOfRooms": 1,
     "apartmentNumber": 81,
@@ -3789,7 +3789,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 21,
     "numberOfRooms": 2,
     "apartmentNumber": 82,
@@ -3798,7 +3798,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 21,
     "numberOfRooms": 3,
     "apartmentNumber": 83,
@@ -3807,7 +3807,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 21,
     "numberOfRooms": 4,
     "apartmentNumber": 84,
@@ -3816,7 +3816,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 22,
     "numberOfRooms": 1,
     "apartmentNumber": 85,
@@ -3825,7 +3825,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 22,
     "numberOfRooms": 2,
     "apartmentNumber": 86,
@@ -3834,7 +3834,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 22,
     "numberOfRooms": 3,
     "apartmentNumber": 87,
@@ -3843,7 +3843,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 22,
     "numberOfRooms": 4,
     "apartmentNumber": 88,
@@ -3852,7 +3852,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 23,
     "numberOfRooms": 1,
     "apartmentNumber": 89,
@@ -3861,7 +3861,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 23,
     "numberOfRooms": 2,
     "apartmentNumber": 90,
@@ -3870,7 +3870,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 23,
     "numberOfRooms": 3,
     "apartmentNumber": 91,
@@ -3879,7 +3879,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 23,
     "numberOfRooms": 4,
     "apartmentNumber": 92,
@@ -3888,7 +3888,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 24,
     "numberOfRooms": 1,
     "apartmentNumber": 93,
@@ -3897,7 +3897,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 24,
     "numberOfRooms": 2,
     "apartmentNumber": 94,
@@ -3906,7 +3906,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 24,
     "numberOfRooms": 3,
     "apartmentNumber": 95,
@@ -3915,7 +3915,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 24,
     "numberOfRooms": 4,
     "apartmentNumber": 96,
@@ -3924,7 +3924,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 25,
     "numberOfRooms": 1,
     "apartmentNumber": 97,
@@ -3933,7 +3933,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 25,
     "numberOfRooms": 2,
     "apartmentNumber": 98,
@@ -3942,7 +3942,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 25,
     "numberOfRooms": 3,
     "apartmentNumber": 99,
@@ -3951,7 +3951,7 @@
     "maxFloor": 25
   },
   {
-    "image": "imageURL",
+    "image": "apartment.svg",
     "floor": 25,
     "numberOfRooms": 4,
     "apartmentNumber": 100,

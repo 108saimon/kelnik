@@ -1,6 +1,6 @@
 <script setup>
 import { useApartmentsStore } from '../stores/apartments';
-import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { ref, onMounted, onBeforeUnmount  } from 'vue';
 
 const store = useApartmentsStore();
 
@@ -164,16 +164,25 @@ function scrollToTop() {
 //   }
 // }
 
+let screenWidth = ref(0);
+
+const handleResize = () => {
+  screenWidth.value = window.innerWidth;
+}
+
 onMounted(() => {
   initData();
   if (window) {
+    screenWidth.value = window.innerWidth;
     window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
   }
 })
 
 onBeforeUnmount(() => {
   if (window) {
     window.removeEventListener('scroll', handleScroll);
+    window.removeEventListener('resize', handleResize);
   }
 })
 </script>
@@ -200,9 +209,32 @@ onBeforeUnmount(() => {
         </div>
       </div>
       <div v-show="store.apartments.length > 0">
-        <ul>
-          <li v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
-            {{ 'номер квартиры ' + apartment.apartmentNumber + ' цена квартиры ' + apartment.price + ' площадь квартиры ' + apartment.areaOfTheApartment + ' этаж ' + apartment.floor + ' из ' + apartment.maxFloor }}
+        <ul v-if="screenWidth < 1339">
+          <li class="apartment-item" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
+            <div class="apartment-item__small-screen-block">
+              <div class="apartment-item__left-block">
+                <div class="apartment-room">{{ apartment.numberOfRooms }}-комнатная №{{ apartmentNumber }}</div>
+                <div class="apartment-area-floor-price">
+                  <div class="apartment-area">{{ apartment.areaOfTheApartment }} м²</div>
+                  <div class="apartment-floor">{{ apartment.floor }}<span> из {{ apartment.maxFloor }}</span></div>
+                  <div class="apartment-price">{{ apartment.price }} ₽</div>
+                </div>
+              </div>
+              <div class="apartment-item__right-block">
+                <img :src="apartment.image"></img>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul v-else>
+          <li class="apartment-item" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
+            <div class="apartment-item__wide-screen-block">
+              <div class="apartment-image apartment-item__block"><img :src="apartment.image"></img></div>
+              <div class="apartment-room apartment-item__block">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
+              <div class="apartment-area apartment-item__block">{{ apartment.areaOfTheApartment }} м²</div>
+              <div class="apartment-floor apartment-item__block">{{ apartment.floor }}<span> из {{ apartment.maxFloor }}</span></div>
+              <div class="apartment-price apartment-item__block">{{ apartment.price }} ₽</div>
+            </div>
           </li>
         </ul>
       </div>
@@ -217,7 +249,7 @@ onBeforeUnmount(() => {
           :key="`number-of-room-${value}`"
           :class="{ disabled: !store.filters.numberOfRooms.includes(value) }"
           @click="changeNumberOfRooms(value)">
-            {{ value }}к
+            {{ value }}
           </div>
       </div>
       <RangeSlider
@@ -294,6 +326,51 @@ onBeforeUnmount(() => {
 }
 .order-desc {
   transform: rotate(180deg);
+}
+
+.apartment-item {
+  margin-bottom: 4px;
+}
+/* <div class="apartment-item__small-screen-block">
+  <div class="apartment-item__left-block">
+    <div class="apartment-room">{{ apartment.numberOfRooms }}-комнатная №{{ apartmentNumber }}</div>
+    <div class="apartment-area-floor-price">
+      <div class="apartment-area">{{ apartment.areaOfTheApartment }} м²</div>
+      <div class="apartment-floor">{{ apartment.floor }}<span> из {{ apartment.maxFloor }}</span></div>
+      <div class="apartment-price">{{ apartment.price }} ₽</div>
+    </div>
+  </div>
+  <div class="apartment-item__right-block">
+    <img :src="apartment.image"></img>
+  </div>
+</div> */
+.apartment-item__small-screen-block {
+  height: 112px;
+  border: 1px solid #E6E6E6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.apartment-item__left-block {
+
+}
+.apartment-item__right-block {
+  margin-right: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* <div class="apartment-item__wide-screen-block">
+  <div class="apartment-image apartment-item__block"><img :src="apartment.image"></img></div>
+  <div class="apartment-room apartment-item__block">{{ apartment.numberOfRooms }}-комнатная №{{ apartmentNumber }}</div>
+  <div class="apartment-area apartment-item__block">{{ apartment.areaOfTheApartment }} м²</div>
+  <div class="apartment-floor apartment-item__block">{{ apartment.floor }}<span> из {{ apartment.maxFloor }}</span></div>
+  <div class="apartment-price apartment-item__block">{{ apartment.price }} ₽</div>
+</div> */
+.apartment-item__wide-screen-block {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
 }
 
 .load-more__button {
