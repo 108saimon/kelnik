@@ -206,7 +206,7 @@ onBeforeUnmount(() => {
           </li>
         </ul>
       </div>
-      <button @click="loadMore" v-show="showLoadMore">
+      <button @click="loadMore" v-show="showLoadMore" class="load-more__button">
         Загрузить ещё
       </button>
     </div>
@@ -294,6 +294,25 @@ onBeforeUnmount(() => {
 }
 .order-desc {
   transform: rotate(180deg);
+}
+
+.load-more__button {
+  /* width: 149px; */
+  height: 38px;
+  border-radius: 25px;
+  padding: 8px 24px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #0B173933;
+}
+
+.load-more__button:hover {
+  background-color: #3EB57C;
+  color: #fff;
+  cursor: pointer;
 }
 
 .apartments__filter {
