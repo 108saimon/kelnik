@@ -4,7 +4,6 @@ import { ref, onMounted } from 'vue';
 
 const store = useApartmentsStore();
 
-// TODO - количество комнат
 // получаем данные для фильтра
 function initApartmentsConfig(data) {
   const prices = data.map(item => item.price);
@@ -45,6 +44,15 @@ function processApartmentsData(data) {
   }
 
   return sortedData.slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);;
+}
+
+function resetFilters() {
+  store.filters.maxPrice = store.filters.maxPriceCurrent;
+  store.filters.minPrice = store.filters.minPriceCurrent
+  store.filters.maxArea = store.filters.maxAreaCurrent;
+  store.filters.minArea = store.filters.minAreaCurrent;
+  store.filters.numberOfRooms = [1,2,3,4];
+  onFilterChange();
 }
 
 async function loadMore() {
@@ -159,7 +167,9 @@ onMounted(() => {
 })
 
 onBeforeUnmount(() => {
-  window.removeEventListener('scroll', handleScroll);
+  if (window) {
+    window.removeEventListener('scroll', handleScroll);
+  }
 })
 </script>
 
@@ -213,6 +223,9 @@ onBeforeUnmount(() => {
         :is-disabled="slidersIsDisabled"
         @change="changeAreaCurrent"
       ></RangeSlider>
+      <div class="reset-filters" @click="resetFilters">
+        Сбросить параметры
+      </div>
     </div>
     <div class="scroll-top__button"
       v-show="currentScrollTop > 0"
