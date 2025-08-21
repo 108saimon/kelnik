@@ -46,6 +46,10 @@ watch(() => props.isDisabled, (value) => {
   }
 })
 
+function addSpaces(numberString) {
+  return numberString.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+}
+
 onMounted(() => {
   if (sliderRef.value) {
     noUiSlider.create(sliderRef.value, {
@@ -65,14 +69,12 @@ onMounted(() => {
     }
 
     sliderRef.value.noUiSlider.on('update', (values, handle) => {
-      // console.log(values);
-      sliderCurrentMin.value = parseFloat(values[0]);
-      sliderCurrentMax.value = parseFloat(values[1]);
+      sliderCurrentMin.value = addSpaces(parseFloat(values[0]));
+      sliderCurrentMax.value = addSpaces(parseFloat(values[1]));
     });
 
     sliderRef.value.noUiSlider.on('change', (values, handle) => {
       emit('change', values)
-      // console.log('CHANGE', values);
     });
   } else {
     console.error("Slider element not found!")
@@ -84,7 +86,8 @@ onMounted(() => {
   <div>
     <div class="filter__label" v-show="props.label.length > -1">{{ props.label }}</div>
     <div class="values__label">
-      от {{ sliderCurrentMin }} до {{ sliderCurrentMax }}
+      <div class="values__item">от<span class="values__strong-text">{{ sliderCurrentMin }}</span></div>
+      <div class="values__item">до<span class="values__strong-text">{{ sliderCurrentMax }}</span></div>
     </div>
     <div ref="sliderRef"></div>
   </div>
@@ -92,6 +95,26 @@ onMounted(() => {
 
 
 <style>
+.filter__label {
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+.values__label {
+  display: flex;
+}
+.values__item {
+  font-size: 14px;
+  line-height: 20px;
+  color: #788690;
+  display: flex;
+  width: 140px;
+}
+.values__strong-text {
+  color: #0B1739;
+  margin-left: 8px;
+}
+
 .noUi-horizontal .noUi-handle {
   border-radius: 50%;
   width: 14px;

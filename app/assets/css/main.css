@@ -55,6 +55,7 @@
 body, html {
   min-height: 100vh;
   font-family: 'PTRootUIWebRegular', sans-serif;
+	color: #0B1739;
 }
 
 div {
