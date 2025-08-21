@@ -252,6 +252,7 @@ onBeforeUnmount(() => {
 }
 .apartments__filter {
   width: 318px;
+  height: 318px;
   background: linear-gradient(135deg, rgba(174, 228, 178, 0.3) 0%, rgba(149, 208, 161, 0.3) 100%);
   padding: 20px;
   border-radius: 20px;

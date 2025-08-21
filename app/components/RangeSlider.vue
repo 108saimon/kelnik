@@ -134,6 +134,7 @@ onMounted(() => {
   background: #3EB57C;
   border-color: #3EB57C;
   box-shadow: none;
+  cursor: pointer;
 }
 .noUi-connect {
   height: 3px;
