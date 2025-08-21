@@ -104,16 +104,16 @@ function sortBy(type) {
 
 async function onFilterChange() {
   store.page = 1
-  slidersIsDisabled.value = true
+  dataIsLoading.value = true
   await loadData().then(data => {
     store.currentApartments = [...processApartmentsData(data)];
-    slidersIsDisabled.value = false
+    dataIsLoading.value = false
   });
 }
 
 let storeIsReady = ref(false);
 
-let slidersIsDisabled = ref(false);
+let dataIsLoading = ref(false);
 
 let showLoadMore = ref(true);
 
@@ -227,7 +227,7 @@ onBeforeUnmount(() => {
         :range-max="store.filters.maxPrice"
         :start-min="store.filters.minPriceCurrent"
         :start-max="store.filters.maxPriceCurrent"
-        :is-disabled="slidersIsDisabled"
+        :is-disabled="dataIsLoading"
         @change="changePriceCurrent"
         ref="priceSliderRef"
       ></RangeSlider>
@@ -238,7 +238,7 @@ onBeforeUnmount(() => {
         :range-max="store.filters.maxArea"
         :start-min="store.filters.minAreaCurrent"
         :start-max="store.filters.maxAreaCurrent"
-        :is-disabled="slidersIsDisabled"
+        :is-disabled="dataIsLoading"
         @change="changeAreaCurrent"
         ref="areaSliderRef"
       ></RangeSlider>
@@ -257,6 +257,7 @@ onBeforeUnmount(() => {
 <style scoped>
 .apartments-list__container {
   width: calc(100% - 318px);
+  padding-right: 28px;
 }
 .apartments-list__title {
   font-size: 54px;
@@ -301,10 +302,6 @@ onBeforeUnmount(() => {
   background: linear-gradient(135deg, rgba(174, 228, 178, 0.3) 0%, rgba(149, 208, 161, 0.3) 100%);
   padding: 20px;
   border-radius: 20px;
-}
-.price_filter__slider-range {
-  position: relative;
-  width: 240px;
 }
 
 .number-of-room__buttons {
