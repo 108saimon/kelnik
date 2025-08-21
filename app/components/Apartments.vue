@@ -155,7 +155,7 @@ function scrollToTop() {
     behavior: 'smooth'
   });
 }
-// Можно было бы использовать такой подход для плавного скролла в том числе в сафари
+// Можно было бы использовать такой подход для плавного скролла в том числе в сафари, но я думаю это уже переусложнение
 // function scrollToTop() {
 //   let top = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
 //   if (top > 0) {
@@ -213,10 +213,10 @@ onBeforeUnmount(() => {
           <li class="apartment-item" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
             <div class="apartment-item__small-screen-block">
               <div class="apartment-item__left-block">
-                <div class="apartment-room">{{ apartment.numberOfRooms }}-комнатная №{{ apartmentNumber }}</div>
+                <div class="apartment-room">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
                 <div class="apartment-area-floor-price">
                   <div class="apartment-area">{{ apartment.areaOfTheApartment }} м²</div>
-                  <div class="apartment-floor">{{ apartment.floor }}<span> из {{ apartment.maxFloor }}</span></div>
+                  <div class="apartment-floor">{{ apartment.floor }} <span class="apartment-floor__span">из {{ apartment.maxFloor }} Этаж</span></div>
                   <div class="apartment-price">{{ apartment.price }} ₽</div>
                 </div>
               </div>
@@ -232,7 +232,7 @@ onBeforeUnmount(() => {
               <div class="apartment-image apartment-item__block"><img :src="apartment.image"></img></div>
               <div class="apartment-room apartment-item__block">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
               <div class="apartment-area apartment-item__block">{{ apartment.areaOfTheApartment }} м²</div>
-              <div class="apartment-floor apartment-item__block">{{ apartment.floor }}<span> из {{ apartment.maxFloor }}</span></div>
+              <div class="apartment-floor apartment-item__block">{{ apartment.floor }}<span> из {{ apartment.maxFloor }} Этаж</span></div>
               <div class="apartment-price apartment-item__block">{{ apartment.price }} ₽</div>
             </div>
           </li>
@@ -352,7 +352,28 @@ onBeforeUnmount(() => {
   justify-content: space-between;
 }
 .apartment-item__left-block {
-
+  margin: 16px 24px;
+  font-size: 14px;
+}
+.apartment-area-floor-price {
+  display: flex;
+}
+.apartment-area, .apartment-floor, .apartment-price {
+  margin-right: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.apartment-floor__span {
+  margin-left: 4px;
+  color: #858B9C;
+}
+.apartment-room {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+  height: 20px;
 }
 .apartment-item__right-block {
   margin-right: 24px;
@@ -384,6 +405,7 @@ onBeforeUnmount(() => {
   justify-content: center;
   background-color: #fff;
   border: 1px solid #0B173933;
+  margin-top: 24px;
 }
 
 .load-more__button:hover {
