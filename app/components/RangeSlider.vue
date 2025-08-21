@@ -50,6 +50,12 @@ function addSpaces(numberString) {
   return numberString.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
+function valuesReset() {
+  sliderRef.value.noUiSlider.set([props.rangeMin, props.rangeMax]);
+}
+
+defineExpose({ valuesReset });
+
 onMounted(() => {
   if (sliderRef.value) {
     noUiSlider.create(sliderRef.value, {
@@ -60,14 +66,6 @@ onMounted(() => {
         'min': props.rangeMin,
         'max': props.rangeMax,
       },
-      format: {
-        to: function (value) {
-          return Math.floor(value);
-        },
-        from: function (value) {
-          return Number(value);
-        }
-      }
     })
 
     if (props.isDisabled) {
@@ -77,10 +75,8 @@ onMounted(() => {
     }
 
     sliderRef.value.noUiSlider.on('update', (values, handle) => {
-      // sliderCurrentMin.value = addSpaces(parseFloat(values[0]));
-      // sliderCurrentMax.value = addSpaces(parseFloat(values[1]));
-      sliderCurrentMin.value = values[0];
-      sliderCurrentMax.value = values[1];
+      sliderCurrentMin.value = addSpaces(parseFloat(values[0]));
+      sliderCurrentMax.value = addSpaces(parseFloat(values[1]));
     });
 
     sliderRef.value.noUiSlider.on('change', (values, handle) => {

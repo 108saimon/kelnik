@@ -46,13 +46,17 @@ function processApartmentsData(data) {
   return sortedData.slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);;
 }
 
+const priceSliderRef = ref(null);
+const areaSliderRef = ref(null);
+
 function resetFilters() {
-  store.filters.maxPrice = store.filters.maxPriceCurrent;
-  store.filters.minPrice = store.filters.minPriceCurrent
-  store.filters.maxArea = store.filters.maxAreaCurrent;
-  store.filters.minArea = store.filters.minAreaCurrent;
+  store.filters.maxPriceCurrent = store.filters.maxPrice;
+  store.filters.minPriceCurrent = store.filters.minPrice;
+  store.filters.maxAreaCurrent = store.filters.maxArea;
+  store.filters.minAreaCurrent = store.filters.minArea;
   store.filters.numberOfRooms = [1,2,3,4];
-  console.log('wtf');
+  priceSliderRef.value.valuesReset();
+  areaSliderRef.value.valuesReset();
   onFilterChange();
 }
 
@@ -213,6 +217,7 @@ onBeforeUnmount(() => {
         :start-max="store.filters.maxPriceCurrent"
         :is-disabled="slidersIsDisabled"
         @change="changePriceCurrent"
+        ref="priceSliderRef"
       ></RangeSlider>
       <RangeSlider
         v-if="storeIsReady"
@@ -223,6 +228,7 @@ onBeforeUnmount(() => {
         :start-max="store.filters.maxAreaCurrent"
         :is-disabled="slidersIsDisabled"
         @change="changeAreaCurrent"
+        ref="areaSliderRef"
       ></RangeSlider>
       <div class="reset-filters" @click="resetFilters">
         Сбросить параметры<div class="reset-filters__icon"></div>
