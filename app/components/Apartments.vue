@@ -129,13 +129,42 @@ async function loadData() {
   return await response.json();
 }
 
+let currentScrollTop = ref(0);
+
+function handleScroll() {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  currentScrollTop.value = scrollTop;
+}
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+// Можно было бы использовать такой подход для плавного скролла в том числе в сафари
+// function scrollToTop() {
+//   let top = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+//   if (top > 0) {
+//     window.scrollBy(0, -100);  // прокручиваем на 100px вверх
+//     setTimeout(scrollUpStep, 20);  // повторяем каждые 20 мс
+//   }
+// }
+
 onMounted(() => {
   initData();
+  if (window) {
+    window.addEventListener('scroll', handleScroll);
+  }
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll);
 })
 </script>
 
 <template>
-  <div class="container">
+  <div class="container" @scroll="handleScroll">
     <div class="apartments-list__container">
       <h1 class="apartments-list__title">Квартиры</h1>
       <div class="apartments-sort__buttons">
@@ -185,6 +214,12 @@ onMounted(() => {
         @change="changeAreaCurrent"
       ></RangeSlider>
     </div>
+    <div class="scroll-top__button"
+      v-show="currentScrollTop > 0"
+      @click="scrollToTop"
+      >
+      <div class="scroll-top__img"></div>
+    </div>
   </div>
 </template>
 <style scoped>
@@ -231,5 +266,25 @@ onMounted(() => {
 .number-of-room__button:hover {
   background: #3EB57C;
   color: #fff;
+}
+.scroll-top__button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #95D0A1;
+  position: fixed;
+  top: auto;
+  bottom: 32px;
+  right: 32px;
+  left: auto;
+  cursor: pointer;
+}
+.scroll-top__img {
+  background-image: url('scroll_top_arrow.svg');
+  height: 12px;
+  width: 10px;
 }
 </style>
