@@ -1,8 +1,13 @@
-<script setup>
+<script lang="ts" setup>
 import noUiSlider from 'nouislider';
 import 'nouislider/dist/nouislider.css';
 import { ref, onMounted, watch } from 'vue';
 import { addSpaces } from '~/utils/helpers';
+import type { API } from 'nouislider';
+
+interface NoUiSliderElement extends HTMLDivElement {
+  noUiSlider: API;
+}
 
 const props = defineProps({
   label: {
@@ -33,10 +38,10 @@ const props = defineProps({
 
 const emit = defineEmits(['change'])
 
-const sliderRef = ref(null);
+const sliderRef = ref<NoUiSliderElement | null>(null);
 
-const sliderCurrentMin = ref(0);
-const sliderCurrentMax = ref(0);
+const sliderCurrentMin = ref<string>('0');
+const sliderCurrentMax = ref<string>('0');
 
 watch(() => props.isDisabled, (value) => {
   if (!sliderRef.value || !sliderRef.value.noUiSlider) return;
@@ -48,6 +53,7 @@ watch(() => props.isDisabled, (value) => {
 })
 
 function valuesReset() {
+  if (!sliderRef.value) return;
   sliderRef.value.noUiSlider.set([props.rangeMin, props.rangeMax]);
 }
 
@@ -71,12 +77,14 @@ onMounted(() => {
       sliderRef.value.noUiSlider.enable();
     }
 
-    sliderRef.value.noUiSlider.on('update', (values, handle) => {
-      sliderCurrentMin.value = addSpaces(parseFloat(values[0]));
-      sliderCurrentMax.value = addSpaces(parseFloat(values[1]));
+    sliderRef.value.noUiSlider.on('update', (values: (string | number)[], handle: number) => {
+      const minValue = typeof values[0] === 'number' ? values[0] : parseFloat(String(values[0]));
+      const maxValue = typeof values[1] === 'number' ? values[1] : parseFloat(String(values[1]));
+      sliderCurrentMin.value = addSpaces(minValue);
+      sliderCurrentMax.value = addSpaces(maxValue);
     });
 
-    sliderRef.value.noUiSlider.on('change', (values, handle) => {
+    sliderRef.value.noUiSlider.on('change', (values: (string | number)[], handle: number) => {
       emit('change', values)
     });
   } else {

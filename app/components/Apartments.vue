@@ -1,16 +1,32 @@
-<script setup>
+<script lang="ts" setup>
 import { useApartmentsStore } from '../stores/apartments';
 import { ref, onMounted, onBeforeUnmount  } from 'vue';
 import { addSpaces } from '~/utils/helpers';
 
+// Локальные типы для строгой типизации
+type ApartmentSortField = 'price' | 'areaOfTheApartment' | 'floor';
+interface Apartment {
+  id: string,
+  image: string,
+  floor: number,
+  numberOfRooms: number,
+  apartmentNumber: number,
+  areaOfTheApartment: number,
+  price: number,
+  maxFloor: number
+}
+interface SliderExpose {
+  valuesReset: () => void
+}
+
 const store = useApartmentsStore();
 
 // получаем данные для фильтра
-function initApartmentsConfig(data) {
-  const prices = data.map(item => item.price);
+function initApartmentsConfig(data: Apartment[]) {
+  const prices = data.map((item: Apartment) => item.price);
   store.filters.maxPrice = Math.max(...prices);
   store.filters.minPrice = Math.min(...prices);
-  const areas = data.map(item => item.areaOfTheApartment);
+  const areas = data.map((item: Apartment) => item.areaOfTheApartment);
   store.filters.maxArea = Math.max(...areas);
   store.filters.minArea = Math.min(...areas);
 
@@ -24,8 +40,8 @@ function initApartmentsConfig(data) {
 }
 
 // функция которая имитирует ответ от бэка - фильтрация, сортировка и выдача по 20 сущностей
-function processApartmentsData(data) {
-  const filterdData = data.filter(item =>
+function processApartmentsData(data: Apartment[]) {
+  const filterdData = data.filter((item: Apartment) =>
     item.price >= store.filters.minPriceCurrent
     && item.price <= store.filters.maxPriceCurrent
     && item.areaOfTheApartment >= store.filters.minAreaCurrent
@@ -34,8 +50,8 @@ function processApartmentsData(data) {
   )
 
   const sortedData = store.sort.order === 'asc' ?
-    filterdData.sort((a, b) => a[store.sort.type] - b[store.sort.type])
-    : filterdData.sort((a, b) => b[store.sort.type] - a[store.sort.type]);
+    filterdData.sort((a: Apartment, b: Apartment) => a[store.sort.type as ApartmentSortField] - b[store.sort.type as ApartmentSortField])
+    : filterdData.sort((a: Apartment, b: Apartment) => b[store.sort.type as ApartmentSortField] - a[store.sort.type as ApartmentSortField]);
 
   const chankedData = sortedData.slice(store.page < 1 ? 0 : (store.page - 1) * 20, store.page * 20);
 
@@ -49,8 +65,8 @@ function processApartmentsData(data) {
   return chankedData;
 }
 
-const priceSliderRef = ref(null);
-const areaSliderRef = ref(null);
+const priceSliderRef = ref<SliderExpose | null>(null);
+const areaSliderRef = ref<SliderExpose | null>(null);
 
 function resetFilters() {
   store.filters.maxPriceCurrent = store.filters.maxPrice;
@@ -58,8 +74,8 @@ function resetFilters() {
   store.filters.maxAreaCurrent = store.filters.maxArea;
   store.filters.minAreaCurrent = store.filters.minArea;
   store.filters.numberOfRooms = [1,2,3,4];
-  priceSliderRef.value.valuesReset();
-  areaSliderRef.value.valuesReset();
+  priceSliderRef.value?.valuesReset();
+  areaSliderRef.value?.valuesReset();
   onFilterChange();
 }
 
@@ -70,24 +86,24 @@ async function loadMore() {
   store.currentApartments.push(...newData);
 }
 
-function changePriceCurrent(values) {
+function changePriceCurrent(values: [string, string]) {
   store.filters.minPriceCurrent = parseFloat(values[0]);
   store.filters.maxPriceCurrent = parseFloat(values[1]);
 
   onFilterChange();
 }
 
-function changeAreaCurrent(values) {
+function changeAreaCurrent(values: [string, string]) {
   store.filters.minAreaCurrent = parseFloat(values[0]);
   store.filters.maxAreaCurrent = parseFloat(values[1]);
 
   onFilterChange();
 }
 
-function changeNumberOfRooms(value) {
+function changeNumberOfRooms(value: number) {
   if (value) {
     if (store.filters.numberOfRooms.includes(value)) {
-      store.filters.numberOfRooms = store.filters.numberOfRooms.filter(item => item !== value);
+      store.filters.numberOfRooms = store.filters.numberOfRooms.filter((item: number) => item !== value);
     } else {
       store.filters.numberOfRooms.push(value);
     }
@@ -95,7 +111,7 @@ function changeNumberOfRooms(value) {
   onFilterChange();
 }
 
-function sortBy(type) {
+function sortBy(type: ApartmentSortField) {
   store.sort.type = type;
   if (store.sort.order === 'asc') {
     store.sort.order = 'desc';
@@ -105,6 +121,7 @@ function sortBy(type) {
   onFilterChange();
 }
 
+// имитация запроса к серверу с выдачей отфильтрованных и отсортированных данных
 async function onFilterChange() {
   store.page = 1
   dataIsLoading.value = true
@@ -254,7 +271,7 @@ onBeforeUnmount(() => {
           :key="`number-of-room-${value}`"
           :class="{ disabled: !store.filters.numberOfRooms.includes(value) }"
           @click="changeNumberOfRooms(value)">
-            {{ value }}
+            {{ value }}к
           </div>
       </div>
       <RangeSlider
