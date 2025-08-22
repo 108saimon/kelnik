@@ -99,8 +99,7 @@ onMounted(() => {
   </div>
 </template>
 
-
-<style>
+<style scoped>
 .filter-container {
   margin-bottom: 24px;
 }
@@ -132,7 +131,8 @@ onMounted(() => {
     font-size: 14px;
   }
 }
-
+</style>
+<style>
 .noUi-horizontal .noUi-handle {
   border-radius: 50%;
   width: 14px;

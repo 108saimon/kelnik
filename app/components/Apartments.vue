@@ -193,21 +193,27 @@ onBeforeUnmount(() => {
   <div class="container" @scroll="handleScroll">
     <div class="apartments-list__container">
       <h1 class="apartments-list__title">Квартиры</h1>
-      <div class="apartments-sort__buttons">
-        <div class="apartments-sort__button"
-          :class="{ 'apartments-sort__button-active': store.sort.type === 'areaOfTheApartment' }"
-          @click="sortBy('areaOfTheApartment')">
-          S, м²<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'areaOfTheApartment' }, `order-${store.sort.order}`]"></div>
+      <div class="apartments__headers-wrap">
+        <div class="apartments__cell-headers" v-if="screenWidth > 1439">
+          <div class="cell-header__layout">Планировка</div>
+          <div class="cell-header__room">Квартира</div>
         </div>
-        <div class="apartments-sort__button"
-          :class="{ 'apartments-sort__button-active': store.sort.type === 'floor' }"
-          @click="sortBy('floor')">
-          Этаж<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'floor' }, `order-${store.sort.order}`]"></div>
-        </div>
-        <div class="apartments-sort__button"
-          :class="{ 'apartments-sort__button-active': store.sort.type === 'price' }"
-          @click="sortBy('price')">
-          Цена, ₽<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'price' }, `order-${store.sort.order}`]"></div>
+        <div class="apartments-sort__buttons">
+          <div class="apartments-sort__button"
+            :class="{ 'apartments-sort__button-active': store.sort.type === 'areaOfTheApartment' }"
+            @click="sortBy('areaOfTheApartment')">
+            S, м²<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'areaOfTheApartment' }, `order-${store.sort.order}`]"></div>
+          </div>
+          <div class="apartments-sort__button"
+            :class="{ 'apartments-sort__button-active': store.sort.type === 'floor' }"
+            @click="sortBy('floor')">
+            Этаж<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'floor' }, `order-${store.sort.order}`]"></div>
+          </div>
+          <div class="apartments-sort__button"
+            :class="{ 'apartments-sort__button-active': store.sort.type === 'price' }"
+            @click="sortBy('price')">
+            Цена, ₽<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'price' }, `order-${store.sort.order}`]"></div>
+          </div>
         </div>
       </div>
       <div v-show="store.apartments.length > 0">
@@ -295,6 +301,30 @@ onBeforeUnmount(() => {
   margin-bottom: 24px;
 }
 
+/* <div class="apartments__headers-wrap">
+        <div class="apartments__cell-headers">
+          <div class="cell-header__layout"></div>
+          <div class="cell-header__room"></div>
+        </div> */
+.apartments__headers-wrap {
+  width: 800px;
+  display: flex;
+}
+
+.apartments__cell-headers {
+  width: 380px;
+  display: flex;
+  font-size: 14px;
+}
+.cell-header__layout {
+  width: 80px;
+  margin-right: 20px;
+}
+.cell-header__room {
+  width: 280px;
+}
+
+
 .apartments-sort__buttons {
   display: flex;
   margin-bottom: 12px;
@@ -303,6 +333,15 @@ onBeforeUnmount(() => {
   margin-right: 20px;
   font-size: 14px;
   cursor: pointer;
+}
+@media (min-width: 1440px) {
+  .apartments-sort__button {
+    width: 120px;
+    margin-right: 20px;
+  }
+  .apartments-sort__button:last-child {
+    margin-right: 0;
+  }
 }
 .apartments-sort__icon {
   background-image: url('arrows.svg');
