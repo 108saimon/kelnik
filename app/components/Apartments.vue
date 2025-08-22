@@ -221,7 +221,7 @@ onBeforeUnmount(() => {
           <li class="apartment-item__small-screen-block" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
             <div class="apartment-item__left-block">
               <div class="apartment-room">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
-              <div class="apartment-area-floor-price">
+              <div class="apartment__down-block">
                 <div class="apartment-area">{{ apartment.areaOfTheApartment }} м²</div>
                 <div class="apartment-floor">{{ apartment.floor }} <span class="apartment-floor__span">из {{ apartment.maxFloor }} Этаж</span></div>
                 <div class="apartment-price">{{ apartment.price }} ₽</div>
@@ -301,11 +301,6 @@ onBeforeUnmount(() => {
   margin-bottom: 24px;
 }
 
-/* <div class="apartments__headers-wrap">
-        <div class="apartments__cell-headers">
-          <div class="cell-header__layout"></div>
-          <div class="cell-header__room"></div>
-        </div> */
 .apartments__headers-wrap {
   width: 800px;
   display: flex;
@@ -323,7 +318,6 @@ onBeforeUnmount(() => {
 .cell-header__room {
   width: 280px;
 }
-
 
 .apartments-sort__buttons {
   display: flex;
@@ -377,7 +371,7 @@ onBeforeUnmount(() => {
   margin: 16px 24px;
   font-size: 14px;
 }
-.apartment-area-floor-price {
+.apartment__down-block {
   display: flex;
 }
 .apartment-area, .apartment-floor, .apartment-price {
