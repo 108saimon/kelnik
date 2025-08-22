@@ -197,46 +197,42 @@ onBeforeUnmount(() => {
         <div class="apartments-sort__button"
           :class="{ 'apartments-sort__button-active': store.sort.type === 'areaOfTheApartment' }"
           @click="sortBy('areaOfTheApartment')">
-          S, м²<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'areaOfTheApartment', 'order-asc': store.sort.order === 'asc', 'order-desc': store.sort.order === 'desc' }]"></div>
+          S, м²<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'areaOfTheApartment' }, `order-${store.sort.order}`]"></div>
         </div>
         <div class="apartments-sort__button"
           :class="{ 'apartments-sort__button-active': store.sort.type === 'floor' }"
           @click="sortBy('floor')">
-          Этаж<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'floor', 'order-asc': store.sort.order === 'asc', 'order-desc': store.sort.order === 'desc' }]"></div>
+          Этаж<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'floor' }, `order-${store.sort.order}`]"></div>
         </div>
         <div class="apartments-sort__button"
           :class="{ 'apartments-sort__button-active': store.sort.type === 'price' }"
           @click="sortBy('price')">
-          Цена, ₽<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'price', 'order-asc': store.sort.order === 'asc', 'order-desc': store.sort.order === 'desc' }]"></div>
+          Цена, ₽<div class="apartments-sort__icon" :class="[{ 'apartments-sort__icon_active': store.sort.type === 'price' }, `order-${store.sort.order}`]"></div>
         </div>
       </div>
       <div v-show="store.apartments.length > 0">
-        <ul v-if="screenWidth < 1339">
-          <li class="apartment-item" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
-            <div class="apartment-item__small-screen-block">
-              <div class="apartment-item__left-block">
-                <div class="apartment-room">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
-                <div class="apartment-area-floor-price">
-                  <div class="apartment-area">{{ apartment.areaOfTheApartment }} м²</div>
-                  <div class="apartment-floor">{{ apartment.floor }} <span class="apartment-floor__span">из {{ apartment.maxFloor }} Этаж</span></div>
-                  <div class="apartment-price">{{ apartment.price }} ₽</div>
-                </div>
+        <ul v-if="screenWidth < 1439">
+          <li class="apartment-item__small-screen-block" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
+            <div class="apartment-item__left-block">
+              <div class="apartment-room">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
+              <div class="apartment-area-floor-price">
+                <div class="apartment-area">{{ apartment.areaOfTheApartment }} м²</div>
+                <div class="apartment-floor">{{ apartment.floor }} <span class="apartment-floor__span">из {{ apartment.maxFloor }} Этаж</span></div>
+                <div class="apartment-price">{{ apartment.price }} ₽</div>
               </div>
-              <div class="apartment-item__right-block">
-                <img :src="apartment.image"></img>
-              </div>
+            </div>
+            <div class="apartment-item__right-block">
+              <img :src="apartment.image"></img>
             </div>
           </li>
         </ul>
         <ul v-else>
-          <li class="apartment-item" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
-            <div class="apartment-item__wide-screen-block">
-              <div class="apartment-image apartment-item__block"><img :src="apartment.image"></img></div>
-              <div class="apartment-room apartment-item__block">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
-              <div class="apartment-area apartment-item__block">{{ apartment.areaOfTheApartment }} м²</div>
-              <div class="apartment-floor apartment-item__block">{{ apartment.floor }}<span> из {{ apartment.maxFloor }} Этаж</span></div>
-              <div class="apartment-price apartment-item__block">{{ apartment.price }} ₽</div>
-            </div>
+          <li class="apartment-item__wide-screen-block" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
+            <div class="apartment-image apartment-item__block"><img :src="apartment.image"></img></div>
+            <div class="apartment-room apartment-item__block">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
+            <div class="apartment-area apartment-item__block">{{ apartment.areaOfTheApartment }} м²</div>
+            <div class="apartment-floor apartment-item__block">{{ apartment.floor }}<span> из {{ apartment.maxFloor }} Этаж</span></div>
+            <div class="apartment-price apartment-item__block">{{ apartment.price }} ₽</div>
           </li>
         </ul>
       </div>
@@ -330,28 +326,13 @@ onBeforeUnmount(() => {
   transform: rotate(180deg);
 }
 
-.apartment-item {
-  margin-bottom: 4px;
-}
-/* <div class="apartment-item__small-screen-block">
-  <div class="apartment-item__left-block">
-    <div class="apartment-room">{{ apartment.numberOfRooms }}-комнатная №{{ apartmentNumber }}</div>
-    <div class="apartment-area-floor-price">
-      <div class="apartment-area">{{ apartment.areaOfTheApartment }} м²</div>
-      <div class="apartment-floor">{{ apartment.floor }}<span> из {{ apartment.maxFloor }}</span></div>
-      <div class="apartment-price">{{ apartment.price }} ₽</div>
-    </div>
-  </div>
-  <div class="apartment-item__right-block">
-    <img :src="apartment.image"></img>
-  </div>
-</div> */
 .apartment-item__small-screen-block {
   height: 112px;
   border: 1px solid #E6E6E6;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 4px;
 }
 .apartment-item__left-block {
   margin: 16px 24px;
@@ -383,17 +364,34 @@ onBeforeUnmount(() => {
   margin-bottom: 16px;
 }
 
-/* <div class="apartment-item__wide-screen-block">
-  <div class="apartment-image apartment-item__block"><img :src="apartment.image"></img></div>
-  <div class="apartment-room apartment-item__block">{{ apartment.numberOfRooms }}-комнатная №{{ apartmentNumber }}</div>
-  <div class="apartment-area apartment-item__block">{{ apartment.areaOfTheApartment }} м²</div>
-  <div class="apartment-floor apartment-item__block">{{ apartment.floor }}<span> из {{ apartment.maxFloor }}</span></div>
-  <div class="apartment-price apartment-item__block">{{ apartment.price }} ₽</div>
-</div> */
 .apartment-item__wide-screen-block {
   display: flex;
-  justify-content: space-between;
+  width: 800px;
+  /* justify-content: space-between; */
   height: 120px;
+  border-top: 1px solid #E6E6E6;
+  padding-top: 16px;
+  font-size: 16px;
+}
+.apartment-item__wide-screen-block:last-child {
+  border-bottom: 1px solid #E6E6E6;
+}
+@media (min-width: 1440px) {
+  .apartment-image {
+    margin-right: 20px;
+  }
+  .apartment-room {
+    width: 280px;
+    height: 24px;
+  }
+  .apartment-area, .apartment-floor, .apartment-price {
+    width: 120px;
+    height: 24px;
+    margin-right: 20px;;
+  }
+  .apartment-price {
+    margin-right: 0;
+  }
 }
 
 .load-more__button {
@@ -421,7 +419,15 @@ onBeforeUnmount(() => {
   height: 318px;
   background: linear-gradient(135deg, rgba(174, 228, 178, 0.3) 0%, rgba(149, 208, 161, 0.3) 100%);
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+@media (min-width: 1440px) {
+  .apartments__filter {
+    width: 400px;
+    height: 372px;
+    padding: 40px;
+    border-radius: 10px;
+  }
 }
 
 .number-of-room__buttons {
@@ -454,8 +460,16 @@ onBeforeUnmount(() => {
 }
 
 .reset-filters {
+  display: flex;
   font-size: 13px;
   cursor: pointer;
+  height: 20px;
+}
+@media (min-width: 1440px) {
+  .reset-filters {
+    font-size: 13px;
+    align-items: center;
+  }
 }
 .reset-filters__icon {
   width: 8px;

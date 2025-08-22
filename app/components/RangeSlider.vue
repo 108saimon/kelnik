@@ -124,6 +124,14 @@ onMounted(() => {
   color: #0B1739;
   margin-left: 8px;
 }
+@media (min-width: 1440px) {
+  .values__item {
+    font-size: 16px;
+  }
+  .filter__label {
+    font-size: 14px;
+  }
+}
 
 .noUi-horizontal .noUi-handle {
   border-radius: 50%;
