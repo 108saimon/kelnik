@@ -101,6 +101,7 @@ function changeAreaCurrent(values: [string, string]) {
 }
 
 function changeNumberOfRooms(value: number) {
+  if (dataIsLoading.value) return;
   if (value) {
     if (store.filters.numberOfRooms.includes(value)) {
       store.filters.numberOfRooms = store.filters.numberOfRooms.filter((item: number) => item !== value);
