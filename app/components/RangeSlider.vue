@@ -2,6 +2,7 @@
 import noUiSlider from 'nouislider';
 import 'nouislider/dist/nouislider.css';
 import { ref, onMounted, watch } from 'vue';
+import { addSpaces } from '~/utils/helpers';
 
 const props = defineProps({
   label: {
@@ -45,10 +46,6 @@ watch(() => props.isDisabled, (value) => {
     sliderRef.value.noUiSlider.enable();
   }
 })
-
-function addSpaces(numberString) {
-  return numberString.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-}
 
 function valuesReset() {
   sliderRef.value.noUiSlider.set([props.rangeMin, props.rangeMax]);

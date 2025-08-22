@@ -1,6 +1,7 @@
 <script setup>
 import { useApartmentsStore } from '../stores/apartments';
 import { ref, onMounted, onBeforeUnmount  } from 'vue';
+import { addSpaces } from '~/utils/helpers';
 
 const store = useApartmentsStore();
 
@@ -224,7 +225,7 @@ onBeforeUnmount(() => {
               <div class="apartment__down-block">
                 <div class="apartment-area">{{ apartment.areaOfTheApartment }} м²</div>
                 <div class="apartment-floor">{{ apartment.floor }} <span class="apartment-floor__span">из {{ apartment.maxFloor }} Этаж</span></div>
-                <div class="apartment-price">{{ apartment.price }} ₽</div>
+                <div class="apartment-price">{{ addSpaces(apartment.price) }} ₽</div>
               </div>
             </div>
             <div class="apartment-item__right-block">
@@ -238,7 +239,7 @@ onBeforeUnmount(() => {
             <div class="apartment-room apartment-item__block">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
             <div class="apartment-area apartment-item__block">{{ apartment.areaOfTheApartment }} м²</div>
             <div class="apartment-floor apartment-item__block">{{ apartment.floor }}<span> из {{ apartment.maxFloor }} Этаж</span></div>
-            <div class="apartment-price apartment-item__block">{{ apartment.price }} ₽</div>
+            <div class="apartment-price apartment-item__block">{{ addSpaces(apartment.price) }} ₽</div>
           </li>
         </ul>
       </div>
