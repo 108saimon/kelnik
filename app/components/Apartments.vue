@@ -208,7 +208,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="container" @scroll="handleScroll">
+  <div class="container" @scroll="handleScroll" v-if="storeIsReady">
     <div class="apartments-list__container">
       <h1 class="apartments-list__title">Квартиры</h1>
       <div class="apartments__headers-wrap">
@@ -234,7 +234,7 @@ onBeforeUnmount(() => {
           </div>
         </div>
       </div>
-      <div v-show="store.apartments.length > 0">
+      <div v-show="store.currentApartments.length > 0">
         <ul v-if="screenWidth < 1439">
           <li class="apartment-item__small-screen-block" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
             <div class="apartment-item__left-block">
@@ -260,7 +260,8 @@ onBeforeUnmount(() => {
           </li>
         </ul>
       </div>
-      <button @click="loadMore" v-show="showLoadMore" class="load-more__button">
+      <div v-show="store.currentApartments.length === 0">Нет подходящих вариантов</div>
+      <button @click="loadMore" v-show="showLoadMore && store.apartments.length !== 0" class="load-more__button">
         Загрузить ещё
       </button>
     </div>
