@@ -431,6 +431,8 @@ onBeforeUnmount(() => {
 }
 @media (min-width: 1440px) {
   .apartment-image {
+    width: 80px;
+    height: 80px;
     margin-right: 20px;
   }
   .apartment-room {
