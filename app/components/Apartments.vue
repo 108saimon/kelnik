@@ -236,7 +236,7 @@ onBeforeUnmount(() => {
         </div>
       </div>
       <div v-show="store.currentApartments.length > 0">
-        <ul v-if="screenWidth < 1439">
+        <ul v-if="screenWidth < 1440">
           <li class="apartment-item__small-screen-block" v-for="(apartment, index) in store.currentApartments" :key="`apartment-index-${index}-id-${apartment.id}`">
             <div class="apartment-item__left-block">
               <div class="apartment-room">{{ apartment.numberOfRooms }}-комнатная №{{ apartment.apartmentNumber }}</div>
